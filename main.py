@@ -7,7 +7,7 @@ from PIL import Image, ImageTk
 
 model = YOLO("yolov8n.pt")
 
-vehicle_classes = [1, 2, 3, 4, 5, 6, 7, 8]  
+vehicle_classes = [1, 2, 3, 4, 5, 6, 7, 8]  # índices COCO de veículos
 
 def show_image(title, img):
     win = Toplevel()
