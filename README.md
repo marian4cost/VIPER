@@ -1,4 +1,4 @@
-🚗 VIPER — Identificação de Placas Veiculares em Imagens Estáticas
+# 🚗 VIPER — Identificação de Placas Veiculares em Imagens Estáticas
 
 O VIPER é um sistema de Reconhecimento Automático de Placas Veiculares (ALPR) que detecta veículos, localiza a placa e realiza a leitura dos caracteres de forma automatizada.
 O projeto foi desenvolvido com foco em campi universitários, oferecendo uma solução de baixo custo, eficiente e escalável para segurança e controle de acesso.
