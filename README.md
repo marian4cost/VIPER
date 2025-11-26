@@ -7,13 +7,13 @@ O projeto foi desenvolvido com foco em campi universitários, oferecendo uma sol
 
 Desenvolver um sistema capaz de:
 
-Detectar veículos em imagens
+Detectar veículos em imagens;
 
-Localizar automaticamente a placa
+Localizar automaticamente a placa;
 
-Pré-processar a imagem para aumentar legibilidade
+Pré-processar a imagem para aumentar legibilidade;
 
-Reconhecer os caracteres da placa via OCR
+Reconhecer os caracteres da placa via OCR;
 
 Operar com hardware simples e econômico (ex: Raspberry Pi)
 
@@ -21,49 +21,46 @@ Operar com hardware simples e econômico (ex: Raspberry Pi)
 
 Campi universitários e pequenos condomínios sofrem com:
 
-Falta de controle de acesso eficiente
+Falta de controle de acesso eficiente;
 
-Sistemas comerciais caros
+Sistemas comerciais caros;
 
 Necessidade crescente de segurança patrimonial
 
-O VIPER surge como alternativa viável, acessível e nacional, alinhada às demandas de Smart Cities e IoT.
-
 ##  🧠 🛠️ Tecnologias Utilizadas
-Componente	Função
-YOLOv8	Detecção do veículo
-OpenCV	Pré-processamento da imagem
-EasyOCR	Reconhecimento dos caracteres da placa
-Tkinter	Interface gráfica
-Python	Linguagem principal
-Raspberry Pi (futuro)	Execução embarcada e de baixo consumo
+YOLOv8:	Detecção do veículo
+OpenCV:	Pré-processamento da imagem
+EasyOCR:	Reconhecimento dos caracteres da placa
+Tkinter:	Interface gráfica
+Python:	Linguagem principal
+Raspberry Pi:	Execução embarcada e de baixo consumo
 ## 🔎 📦 Funcionamento do Sistema
 
-Fluxo resumido:
+### Fluxo resumido:
 
-Upload/entrada da imagem
+Upload/entrada da imagem;
 
-YOLO detecta o veículo
+YOLO detecta o veículo;
 
-A região onde a placa deve estar é estimada
+A região onde a placa deve estar é estimada;
 
-A placa é recortada
+A placa é recortada;
 
-A imagem passa por pré-processamento:
+### A imagem passa por pré-processamento:
 
-Grayscale
+Grayscale;
 
-CLAHE (contraste)
+CLAHE (contraste);
 
-Redução de ruído
+Redução de ruído;
 
-Binarização
+Binarização;
 
-Morfologia
+Morfologia;
 
 Redimensionamento
 
-EasyOCR lê os caracteres
+### EasyOCR lê os caracteres
 
 O resultado é exibido na interface
 
@@ -71,34 +68,33 @@ O resultado é exibido na interface
 
 O VIPER conta com uma interface simples em Tkinter:
 
-Botão para selecionar imagem
+Botão para selecionar imagem;
 
-Exibição:
+### Exibição:
 
-Veículo detectado
+Veículo detectado;
 
-Placa recortada
+Placa recortada;
 
-Placa pré-processada
+Placa pré-processada;
 
 Popup com o texto reconhecido
 
 ## 📥 📌 Instalação
-Pré-requisitos
+### Pré-requisitos
 
 Python 3.10 ou 3.12 (recomendado)
 
 pip atualizado
 
-Passos
-# Criar ambiente virtual
+### Passos
+#### Criar ambiente virtual
 python -m venv .venv
 
-# Ativar
-# Windows:
+#### Ativar Windows
 .venv\Scripts\activate
 
-# Instalar dependências
+#### Instalar dependências
 pip install ultralytics
 pip install opencv-python
 pip install easyocr
@@ -109,28 +105,27 @@ python main.py
 
 ## ✅ Resultados Esperados
 
-Baixo custo operacional
+Baixo custo operacional;
 
-Funcionamento em tempo quase real
+Funcionamento em tempo quase real;
 
-Alta acessibilidade energética (quando embarcado)
+Alta acessibilidade energética (quando embarcado);
 
 Aplicação distribuída e escalável
 
-
 ## 🔮 Próximos Passos
 
-Implantação embarcada em Raspberry Pi
+Implantação embarcada em Raspberry Pi;
 
-Banco de placas cadastradas
+Banco de placas cadastradas;
 
-Envio de dados para nuvem (Render/Railway)
+Envio de dados para nuvem (Render/Railway);
 
-Alarme e monitoramento em tempo real
+Alarme e monitoramento em tempo real;
 
 Suporte a câmera IP
 
-👤 👥 Autores
+## 👤 👥 Autores
 
 Marcos Vinicius S. Melo
 
