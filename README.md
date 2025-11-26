@@ -3,7 +3,7 @@
 O VIPER é um sistema de Reconhecimento Automático de Placas Veiculares (ALPR) que detecta veículos, localiza a placa e realiza a leitura dos caracteres de forma automatizada.
 O projeto foi desenvolvido com foco em campi universitários, oferecendo uma solução de baixo custo, eficiente e escalável para segurança e controle de acesso.
 
-✅ 🎯 Objetivo do Projeto
+## ✅ 🎯 Objetivo do Projeto
 
 Desenvolver um sistema capaz de:
 
@@ -17,7 +17,7 @@ Reconhecer os caracteres da placa via OCR
 
 Operar com hardware simples e econômico (ex: Raspberry Pi)
 
-🧩 🚀 Motivação
+## 🧩 🚀 Motivação
 
 Campi universitários e pequenos condomínios sofrem com:
 
@@ -29,7 +29,7 @@ Necessidade crescente de segurança patrimonial
 
 O VIPER surge como alternativa viável, acessível e nacional, alinhada às demandas de Smart Cities e IoT.
 
-🧠 🛠️ Tecnologias Utilizadas
+##  🧠 🛠️ Tecnologias Utilizadas
 Componente	Função
 YOLOv8	Detecção do veículo
 OpenCV	Pré-processamento da imagem
@@ -37,7 +37,7 @@ EasyOCR	Reconhecimento dos caracteres da placa
 Tkinter	Interface gráfica
 Python	Linguagem principal
 Raspberry Pi (futuro)	Execução embarcada e de baixo consumo
-🔎 📦 Funcionamento do Sistema
+## 🔎 📦 Funcionamento do Sistema
 
 Fluxo resumido:
 
@@ -67,7 +67,7 @@ EasyOCR lê os caracteres
 
 O resultado é exibido na interface
 
-💻 🖥️ Interface
+## 💻 🖥️ Interface
 
 O VIPER conta com uma interface simples em Tkinter:
 
@@ -83,7 +83,7 @@ Placa pré-processada
 
 Popup com o texto reconhecido
 
-📥 📌 Instalação
+## 📥 📌 Instalação
 Pré-requisitos
 
 Python 3.10 ou 3.12 (recomendado)
@@ -104,10 +104,10 @@ pip install opencv-python
 pip install easyocr
 pip install pillow
 
-▶️ 🏁 Como Executar
+## ▶️ 🏁 Como Executar
 python main.py
 
-✅ Resultados Esperados
+## ✅ Resultados Esperados
 
 Baixo custo operacional
 
@@ -117,31 +117,8 @@ Alta acessibilidade energética (quando embarcado)
 
 Aplicação distribuída e escalável
 
-🔐 📚 Privacidade e Segurança
 
-O projeto considera:
-
-Criptografia dos dados (fase futura)
-
-Controle de acesso
-
-Respeito à LGPD
-
-Armazenamento mínimo e seguro
-
-🌎 Aplicações Reais
-
-Campi universitários
-
-Estacionamentos
-
-Condomínios
-
-Empresas de pequeno porte
-
-Controle logístico
-
-🔮 Próximos Passos
+## 🔮 Próximos Passos
 
 Implantação embarcada em Raspberry Pi
 
