@@ -135,5 +135,4 @@ Rubens de S. Matos Júnior
 
 Alfredo M. Vieira
 
-Instituto Federal de Educação, Ciência e Tecnologia de Sergipe – Campus Lagarto
-Projeto desenvolvido para a SNCT.
+Instituto Federal de Educação, Ciência e Tecnologia de Sergipe – Campus Lagarto.
