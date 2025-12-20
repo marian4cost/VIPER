@@ -54,6 +54,8 @@ for r in results:
         if label in VEHICLE_CLASSES:
             x1, y1, x2, y2 = map(int, box.xyxy[0])
 
+
+
             # Desenha bounding box
             cv2.rectangle(img, (x1, y1), (x2, y2), (0, 255, 0), 2)
 

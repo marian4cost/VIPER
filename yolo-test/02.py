@@ -34,6 +34,7 @@ while True:
             cls_id = int(box.cls[0])
             label = r.names[cls_id]
 
+
             if label in VEHICLE_CLASSES:
                 x1, y1, x2, y2 = map(int, box.xyxy[0])
 
