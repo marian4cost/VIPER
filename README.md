@@ -49,3 +49,10 @@ O OCR frequentemente confunde caracteres visualmente semelhantes:
 **O ↔ 0**, **I ↔ 1**, **S ↔ 5**, **Q ↔ 9**, etc.
 
 O padrão Mercosul segue o formato:
+
+LLL N L NN (L = letra, N = número)
+
+# 👨‍💻 Autor
+
+Projeto desenvolvido por: Mariana Costa, Marcos Vinicius Souza
+📌 Foco: Visão Computacional • Deep Learning • Automação de Segurança
