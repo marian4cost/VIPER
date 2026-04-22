@@ -2,8 +2,6 @@
 
 Este projeto consiste em um sistema de ponta a ponta para **Detecção, Rastreamento e Reconhecimento de Caracteres (OCR)** de placas veiculares no padrão Mercosul. O sistema utiliza modelos de **Deep Learning** de última geração para monitorar fluxos de tráfego de forma automatizada.
 
----
-
 ## 🚀 Funcionalidades
 
 - **Rastreamento em Tempo Real**  
@@ -21,8 +19,6 @@ Este projeto consiste em um sistema de ponta a ponta para **Detecção, Rastream
 - **Persistência de Dados**  
   Geração automática de registros em planilhas Excel (`.xlsx`) e armazenamento de evidências fotográficas.
 
----
-
 ## 🏗️ Arquitetura do Sistema
 
 O projeto é dividido em dois motores independentes que operam de forma assíncrona:
@@ -34,8 +30,6 @@ Responsável pela ingestão do vídeo, detecção de veículos e salvamento de r
 - **Entrada:** Arquivo de vídeo (`.mp4`) ou Stream IP  
 - **Saída:** Recortes de veículos salvos na pasta `/fotos_carros`
 
----
-
 ### 2. Motor de Processamento (`main_processador.py`)
 
 Responsável pela inteligência do sistema. Monitora a pasta de entrada e processa cada imagem sequencialmente.
@@ -46,8 +40,6 @@ Responsável pela inteligência do sistema. Monitora a pasta de entrada e proces
   - Leitura OCR  
   - Registro em planilha  
 
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 - **Linguagem:** Python 3.9+  
@@ -55,8 +47,6 @@ Responsável pela inteligência do sistema. Monitora a pasta de entrada e proces
 - **OCR:** EasyOCR  
 - **Visão Computacional:** OpenCV, NumPy  
 - **Manipulação de Dados:** Pandas, Openpyxl  
-
----
 
 ## 📋 Pré-requisitos e Instalação
 
@@ -75,7 +65,7 @@ pip install ultralytics easyocr opencv-python pandas openpyxl
 ### 3. Modelos
 Certifique-se de ter o arquivo best.pt (modelo treinado de placas) no diretório indicado no código.
 
-####🚦 Como Utilizar
+🚦 Como Utilizar
 
 1. Inicie o Motor de Captura
 ```bash
@@ -96,16 +86,16 @@ registro_placas.xlsx → Planilha com todos os registros
 
 Para garantir maior precisão no OCR, cada placa passa pelas seguintes etapas:
 
-**Localização
-**Detecção da bounding box da placa
-**Warp Perspective
-**Alinhamento geométrico para visualização frontal
-**Remoção de Topo
-**Exclusão da faixa azul "Brasil" (padrão Mercosul)
-**Binarização
-**Conversão para escala de cinza + Threshold de Otsu
-**Sharpening
-**Aumento de nitidez para destacar os caracteres
+- Localização
+- Detecção da bounding box da placa
+- Warp Perspective
+- Alinhamento geométrico para visualização frontal
+- Remoção de Topo
+- Exclusão da faixa azul "Brasil" (padrão Mercosul)
+- Binarização
+- Conversão para escala de cinza + Threshold de Otsu
+- Sharpening
+- Aumento de nitidez para destacar os caracteres
 
 ## 👨‍💻 Autor
 Mariana da Costa Lisboa
