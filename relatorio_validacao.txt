@@ -1,0 +1,54 @@
+=== RELATÓRIO OFICIAL DE VALIDAÇÃO E LATÊNCIA ===
+
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Uso de CPU Host: 0.0%
+ ├─ Memória RAM Usada: 2979.00 MB / 7236.25 MB (41.2%)
+ └─ GPU & VRAM: NVIDIA GeForce RTX 3050 Laptop GPU | Alocada: 0.00 MB | Pico: 0.00 MB | Reservada: 0.00 MB
+====================================================
+
+1. CARREGANDO MODELO EM MODO DE AVALIAÇÃO...
+   Pesos: /home/mariana-costa/Documentos/projects/viper/VIPER/runs/detect/runs/detect/placa_detector/weights/best.pt
+
+2. EXECUTANDO AVALIAÇÃO NO SPLIT DE TESTE...
+====================================================
+=== MÉTRICAS DE QUALIDADE (SPLIT: TEST) ===
+====================================================
+ - Precision (Precisão): 0.0000
+ - Recall (Revocação): 0.0000
+ - F1-Score: 0.0000
+ - mAP@0.5: 0.0000
+ - mAP@0.5:0.95: 0.0000
+ - Matriz de Confusão & Gráficos salvos em: /home/mariana-costa/Documentos/projects/viper/VIPER/runs/detect/val-6
+ - Tempo Total da Validação: 2.76 s
+----------------------------------------------------
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Uso de CPU Host: 12.3%
+ ├─ Memória RAM Usada: 3856.63 MB / 7236.25 MB (53.3%)
+ └─ GPU & VRAM: NVIDIA GeForce RTX 3050 Laptop GPU | Alocada: 11.59 MB | Pico: 56.37 MB | Reservada: 90.00 MB
+====================================================
+
+
+3. INICIANDO BENCHMARK DE LATÊNCIA E FPS (BATCH SIZE = 1)...
+ ├─ Executando Warm-up (50 iterações)...
+ ├─ Medindo latências isoladas ao longo de 100 execuções...
+====================================================
+=== BENCHMARK DE LATÊNCIA E DESEMPENHO EM TEMPO REAL ===
+====================================================
+ - Hardware Utilizado: NVIDIA GeForce RTX 3050 Laptop GPU
+ - Configuração: Batch Size = 1 | Img Size = 640x640
+ - Pré-processamento Médio: 0.01 ms
+ - Forward Pass (Inferência) Médio: 4.58 ms
+ - Pós-processamento / NMS Médio: 0.87 ms
+ - Latência Total End-to-End: 5.46 ms
+ - Taxa de Quadros (FPS Real): 183.29 FPS
+ - Tempo Total do Benchmark: 0.93 s
+ - Tempo Geral de Execução: 3.84 s
+----------------------------------------------------
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Uso de CPU Host: 11.3%
+ ├─ Memória RAM Usada: 3850.14 MB / 7236.25 MB (53.2%)
+ └─ GPU & VRAM: NVIDIA GeForce RTX 3050 Laptop GPU | Alocada: 17.44 MB | Pico: 56.37 MB | Reservada: 90.00 MB
+====================================================
+
+✨ Testes de validação finalizados! Relatório salvo em '/home/mariana-costa/Documentos/projects/viper/VIPER/relatorio_validacao.txt'.

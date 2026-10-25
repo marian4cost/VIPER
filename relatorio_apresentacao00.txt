@@ -1,0 +1,2282 @@
+=== RELATÓRIO COMPLETO DE TREINAMENTO, EXPORTAÇÃO E VARREDURA CONF ===
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 1/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 3.49 s
+ ├─ Tempo Médio por Batch: 289.74 ms
+ ├─ Uso Médio da CPU Host: 23.8%
+ ├─ Pico de RAM do Sistema: 6778.69 MB
+ └─ Pico de Alocação VRAM: 1903.14 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0000
+ ├─ Recall (Validação): 0.0000
+ ├─ mAP@0.5: 0.0000
+ └─ mAP@0.5:0.95: 0.0000
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 2/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.10 s
+ ├─ Tempo Médio por Batch: 174.04 ms
+ ├─ Uso Médio da CPU Host: 25.8%
+ ├─ Pico de RAM do Sistema: 6724.43 MB
+ └─ Pico de Alocação VRAM: 1823.01 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0020
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.4283
+ └─ mAP@0.5:0.95: 0.2109
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 3/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.10 s
+ ├─ Tempo Médio por Batch: 173.93 ms
+ ├─ Uso Médio da CPU Host: 22.3%
+ ├─ Pico de RAM do Sistema: 6780.85 MB
+ └─ Pico de Alocação VRAM: 1822.48 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0020
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.4000
+ └─ mAP@0.5:0.95: 0.0888
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 4/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.07 s
+ ├─ Tempo Médio por Batch: 172.10 ms
+ ├─ Uso Médio da CPU Host: 21.8%
+ ├─ Pico de RAM do Sistema: 6790.48 MB
+ └─ Pico de Alocação VRAM: 1823.08 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0020
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.0603
+ └─ mAP@0.5:0.95: 0.0158
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 5/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.15 s
+ ├─ Tempo Médio por Batch: 178.62 ms
+ ├─ Uso Médio da CPU Host: 21.1%
+ ├─ Pico de RAM do Sistema: 6768.80 MB
+ └─ Pico de Alocação VRAM: 1846.32 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0020
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.0093
+ └─ mAP@0.5:0.95: 0.0018
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 6/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.07 s
+ ├─ Tempo Médio por Batch: 172.15 ms
+ ├─ Uso Médio da CPU Host: 23.5%
+ ├─ Pico de RAM do Sistema: 6726.83 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0013
+ ├─ Recall (Validação): 0.4000
+ ├─ mAP@0.5: 0.0025
+ └─ mAP@0.5:0.95: 0.0003
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 7/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.09 s
+ ├─ Tempo Médio por Batch: 172.79 ms
+ ├─ Uso Médio da CPU Host: 21.4%
+ ├─ Pico de RAM do Sistema: 6663.78 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0013
+ ├─ Recall (Validação): 0.4000
+ ├─ mAP@0.5: 0.0025
+ └─ mAP@0.5:0.95: 0.0003
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 8/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.09 s
+ ├─ Tempo Médio por Batch: 173.55 ms
+ ├─ Uso Médio da CPU Host: 21.4%
+ ├─ Pico de RAM do Sistema: 6644.46 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0013
+ ├─ Recall (Validação): 0.4000
+ ├─ mAP@0.5: 0.0031
+ └─ mAP@0.5:0.95: 0.0005
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 9/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.09 s
+ ├─ Tempo Médio por Batch: 173.67 ms
+ ├─ Uso Médio da CPU Host: 23.7%
+ ├─ Pico de RAM do Sistema: 6530.69 MB
+ └─ Pico de Alocação VRAM: 1844.73 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0000
+ ├─ Recall (Validação): 0.0000
+ ├─ mAP@0.5: 0.0000
+ └─ mAP@0.5:0.95: 0.0000
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 10/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.07 s
+ ├─ Tempo Médio por Batch: 171.86 ms
+ ├─ Uso Médio da CPU Host: 21.7%
+ ├─ Pico de RAM do Sistema: 6507.90 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0000
+ ├─ Recall (Validação): 0.0000
+ ├─ mAP@0.5: 0.0000
+ └─ mAP@0.5:0.95: 0.0000
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 11/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.08 s
+ ├─ Tempo Médio por Batch: 172.84 ms
+ ├─ Uso Médio da CPU Host: 19.6%
+ ├─ Pico de RAM do Sistema: 6422.86 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0000
+ ├─ Recall (Validação): 0.0000
+ ├─ mAP@0.5: 0.0000
+ └─ mAP@0.5:0.95: 0.0000
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 12/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.08 s
+ ├─ Tempo Médio por Batch: 172.71 ms
+ ├─ Uso Médio da CPU Host: 21.3%
+ ├─ Pico de RAM do Sistema: 6366.38 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0000
+ ├─ Recall (Validação): 0.0000
+ ├─ mAP@0.5: 0.0000
+ └─ mAP@0.5:0.95: 0.0000
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 13/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.08 s
+ ├─ Tempo Médio por Batch: 172.88 ms
+ ├─ Uso Médio da CPU Host: 21.1%
+ ├─ Pico de RAM do Sistema: 6311.99 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0042
+ ├─ Recall (Validação): 0.4000
+ ├─ mAP@0.5: 0.0081
+ └─ mAP@0.5:0.95: 0.0016
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 14/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.10 s
+ ├─ Tempo Médio por Batch: 174.02 ms
+ ├─ Uso Médio da CPU Host: 21.9%
+ ├─ Pico de RAM do Sistema: 6146.97 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0020
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.0109
+ └─ mAP@0.5:0.95: 0.0036
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 15/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.11 s
+ ├─ Tempo Médio por Batch: 174.98 ms
+ ├─ Uso Médio da CPU Host: 21.3%
+ ├─ Pico de RAM do Sistema: 6102.02 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0020
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.0109
+ └─ mAP@0.5:0.95: 0.0036
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 16/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.10 s
+ ├─ Tempo Médio por Batch: 173.94 ms
+ ├─ Uso Médio da CPU Host: 22.3%
+ ├─ Pico de RAM do Sistema: 6035.71 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0007
+ ├─ Recall (Validação): 0.2000
+ ├─ mAP@0.5: 0.0002
+ └─ mAP@0.5:0.95: 0.0000
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 17/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.12 s
+ ├─ Tempo Médio por Batch: 175.87 ms
+ ├─ Uso Médio da CPU Host: 24.0%
+ ├─ Pico de RAM do Sistema: 6013.33 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0020
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.0102
+ └─ mAP@0.5:0.95: 0.0020
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 18/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.09 s
+ ├─ Tempo Médio por Batch: 173.77 ms
+ ├─ Uso Médio da CPU Host: 22.7%
+ ├─ Pico de RAM do Sistema: 5985.21 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0013
+ ├─ Recall (Validação): 0.4000
+ ├─ mAP@0.5: 0.0012
+ └─ mAP@0.5:0.95: 0.0003
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 19/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.09 s
+ ├─ Tempo Médio por Batch: 173.47 ms
+ ├─ Uso Médio da CPU Host: 21.6%
+ ├─ Pico de RAM do Sistema: 6038.11 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0013
+ ├─ Recall (Validação): 0.4000
+ ├─ mAP@0.5: 0.0012
+ └─ mAP@0.5:0.95: 0.0003
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 20/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.15 s
+ ├─ Tempo Médio por Batch: 178.09 ms
+ ├─ Uso Médio da CPU Host: 25.1%
+ ├─ Pico de RAM do Sistema: 6027.46 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0243
+ ├─ Recall (Validação): 0.2000
+ ├─ mAP@0.5: 0.0229
+ └─ mAP@0.5:0.95: 0.0056
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 21/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.09 s
+ ├─ Tempo Médio por Batch: 173.66 ms
+ ├─ Uso Médio da CPU Host: 22.5%
+ ├─ Pico de RAM do Sistema: 6048.65 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.1865
+ ├─ Recall (Validação): 0.2000
+ ├─ mAP@0.5: 0.1139
+ └─ mAP@0.5:0.95: 0.0500
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 22/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.11 s
+ ├─ Tempo Médio por Batch: 175.22 ms
+ ├─ Uso Médio da CPU Host: 22.5%
+ ├─ Pico de RAM do Sistema: 6004.94 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.4845
+ ├─ Recall (Validação): 0.4000
+ ├─ mAP@0.5: 0.3991
+ └─ mAP@0.5:0.95: 0.1366
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 23/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.14 s
+ ├─ Tempo Médio por Batch: 177.40 ms
+ ├─ Uso Médio da CPU Host: 25.1%
+ ├─ Pico de RAM do Sistema: 6004.55 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.4845
+ ├─ Recall (Validação): 0.4000
+ ├─ mAP@0.5: 0.3991
+ └─ mAP@0.5:0.95: 0.1366
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 24/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.12 s
+ ├─ Tempo Médio por Batch: 175.73 ms
+ ├─ Uso Médio da CPU Host: 21.9%
+ ├─ Pico de RAM do Sistema: 6007.99 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0027
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.0661
+ └─ mAP@0.5:0.95: 0.0280
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 25/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.12 s
+ ├─ Tempo Médio por Batch: 175.04 ms
+ ├─ Uso Médio da CPU Host: 24.3%
+ ├─ Pico de RAM do Sistema: 6029.57 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0654
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.1318
+ └─ mAP@0.5:0.95: 0.0612
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 26/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.10 s
+ ├─ Tempo Médio por Batch: 174.56 ms
+ ├─ Uso Médio da CPU Host: 21.7%
+ ├─ Pico de RAM do Sistema: 5989.97 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.4677
+ ├─ Recall (Validação): 0.2000
+ ├─ mAP@0.5: 0.1837
+ └─ mAP@0.5:0.95: 0.0457
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 27/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.10 s
+ ├─ Tempo Médio por Batch: 174.30 ms
+ ├─ Uso Médio da CPU Host: 25.0%
+ ├─ Pico de RAM do Sistema: 6040.96 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.4677
+ ├─ Recall (Validação): 0.2000
+ ├─ mAP@0.5: 0.1837
+ └─ mAP@0.5:0.95: 0.0457
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 28/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.15 s
+ ├─ Tempo Médio por Batch: 178.22 ms
+ ├─ Uso Médio da CPU Host: 27.6%
+ ├─ Pico de RAM do Sistema: 6194.42 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.4089
+ ├─ Recall (Validação): 0.4000
+ ├─ mAP@0.5: 0.3939
+ └─ mAP@0.5:0.95: 0.1994
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 29/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.13 s
+ ├─ Tempo Médio por Batch: 176.44 ms
+ ├─ Uso Médio da CPU Host: 23.0%
+ ├─ Pico de RAM do Sistema: 6186.82 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.4622
+ ├─ Recall (Validação): 0.4000
+ ├─ mAP@0.5: 0.4729
+ └─ mAP@0.5:0.95: 0.1554
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 30/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.09 s
+ ├─ Tempo Médio por Batch: 173.25 ms
+ ├─ Uso Médio da CPU Host: 21.9%
+ ├─ Pico de RAM do Sistema: 6178.38 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.2602
+ ├─ Recall (Validação): 0.4000
+ ├─ mAP@0.5: 0.4693
+ └─ mAP@0.5:0.95: 0.1687
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 31/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.14 s
+ ├─ Tempo Médio por Batch: 177.43 ms
+ ├─ Uso Médio da CPU Host: 24.0%
+ ├─ Pico de RAM do Sistema: 6143.32 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.2602
+ ├─ Recall (Validação): 0.4000
+ ├─ mAP@0.5: 0.4693
+ └─ mAP@0.5:0.95: 0.1687
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 32/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.10 s
+ ├─ Tempo Médio por Batch: 173.93 ms
+ ├─ Uso Médio da CPU Host: 21.5%
+ ├─ Pico de RAM do Sistema: 6031.00 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.4542
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.5653
+ └─ mAP@0.5:0.95: 0.2402
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 33/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.25 s
+ ├─ Tempo Médio por Batch: 186.80 ms
+ ├─ Uso Médio da CPU Host: 27.9%
+ ├─ Pico de RAM do Sistema: 5928.33 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.6126
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.6247
+ └─ mAP@0.5:0.95: 0.2492
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 34/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.17 s
+ ├─ Tempo Médio por Batch: 179.83 ms
+ ├─ Uso Médio da CPU Host: 27.2%
+ ├─ Pico de RAM do Sistema: 5882.53 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.7937
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.7520
+ └─ mAP@0.5:0.95: 0.2180
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 35/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.04 s
+ ├─ Tempo Médio por Batch: 169.57 ms
+ ├─ Uso Médio da CPU Host: 16.1%
+ ├─ Pico de RAM do Sistema: 5103.66 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.7937
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.7520
+ └─ mAP@0.5:0.95: 0.2180
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 36/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.09 s
+ ├─ Tempo Médio por Batch: 173.47 ms
+ ├─ Uso Médio da CPU Host: 21.6%
+ ├─ Pico de RAM do Sistema: 5179.70 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.7719
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.6929
+ └─ mAP@0.5:0.95: 0.1567
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 37/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.07 s
+ ├─ Tempo Médio por Batch: 172.21 ms
+ ├─ Uso Médio da CPU Host: 20.0%
+ ├─ Pico de RAM do Sistema: 5182.03 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9328
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.8163
+ └─ mAP@0.5:0.95: 0.2757
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 38/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.08 s
+ ├─ Tempo Médio por Batch: 172.50 ms
+ ├─ Uso Médio da CPU Host: 21.5%
+ ├─ Pico de RAM do Sistema: 5117.27 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9988
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.7372
+ └─ mAP@0.5:0.95: 0.2132
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 39/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.07 s
+ ├─ Tempo Médio por Batch: 171.57 ms
+ ├─ Uso Médio da CPU Host: 19.8%
+ ├─ Pico de RAM do Sistema: 5077.27 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9988
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.7372
+ └─ mAP@0.5:0.95: 0.2132
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 40/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.10 s
+ ├─ Tempo Médio por Batch: 174.33 ms
+ ├─ Uso Médio da CPU Host: 21.5%
+ ├─ Pico de RAM do Sistema: 5059.77 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9577
+ ├─ Recall (Validação): 0.4000
+ ├─ mAP@0.5: 0.6236
+ └─ mAP@0.5:0.95: 0.1924
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 41/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.97 s
+ ├─ Tempo Médio por Batch: 163.66 ms
+ ├─ Uso Médio da CPU Host: 17.0%
+ ├─ Pico de RAM do Sistema: 5051.62 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.7265
+ ├─ Recall (Validação): 0.5435
+ ├─ mAP@0.5: 0.7117
+ └─ mAP@0.5:0.95: 0.2306
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 42/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.97 s
+ ├─ Tempo Médio por Batch: 163.71 ms
+ ├─ Uso Médio da CPU Host: 19.3%
+ ├─ Pico de RAM do Sistema: 5069.47 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.7499
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.8550
+ └─ mAP@0.5:0.95: 0.2973
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 43/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.96 s
+ ├─ Tempo Médio por Batch: 162.56 ms
+ ├─ Uso Médio da CPU Host: 17.8%
+ ├─ Pico de RAM do Sistema: 5069.33 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.7499
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.8550
+ └─ mAP@0.5:0.95: 0.2973
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 44/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.98 s
+ ├─ Tempo Médio por Batch: 164.35 ms
+ ├─ Uso Médio da CPU Host: 20.3%
+ ├─ Pico de RAM do Sistema: 5019.84 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9467
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.8783
+ └─ mAP@0.5:0.95: 0.3644
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 45/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.97 s
+ ├─ Tempo Médio por Batch: 163.51 ms
+ ├─ Uso Médio da CPU Host: 18.4%
+ ├─ Pico de RAM do Sistema: 5013.73 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.7012
+ ├─ Recall (Validação): 0.9452
+ ├─ mAP@0.5: 0.8579
+ └─ mAP@0.5:0.95: 0.3778
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 46/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.98 s
+ ├─ Tempo Médio por Batch: 163.98 ms
+ ├─ Uso Médio da CPU Host: 18.5%
+ ├─ Pico de RAM do Sistema: 5000.09 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.7023
+ ├─ Recall (Validação): 0.9496
+ ├─ mAP@0.5: 0.8979
+ └─ mAP@0.5:0.95: 0.3669
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 47/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.97 s
+ ├─ Tempo Médio por Batch: 163.12 ms
+ ├─ Uso Médio da CPU Host: 17.0%
+ ├─ Pico de RAM do Sistema: 4971.32 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.7023
+ ├─ Recall (Validação): 0.9496
+ ├─ mAP@0.5: 0.8979
+ └─ mAP@0.5:0.95: 0.3669
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 48/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.02 s
+ ├─ Tempo Médio por Batch: 167.84 ms
+ ├─ Uso Médio da CPU Host: 20.4%
+ ├─ Pico de RAM do Sistema: 4988.69 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.8977
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.8192
+ └─ mAP@0.5:0.95: 0.3421
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 49/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.95 s
+ ├─ Tempo Médio por Batch: 161.74 ms
+ ├─ Uso Médio da CPU Host: 16.5%
+ ├─ Pico de RAM do Sistema: 4940.53 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.7711
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.7417
+ └─ mAP@0.5:0.95: 0.2252
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 50/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.93 s
+ ├─ Tempo Médio por Batch: 160.29 ms
+ ├─ Uso Médio da CPU Host: 15.7%
+ ├─ Pico de RAM do Sistema: 4940.18 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.4625
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.7283
+ └─ mAP@0.5:0.95: 0.2817
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 51/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.93 s
+ ├─ Tempo Médio por Batch: 160.31 ms
+ ├─ Uso Médio da CPU Host: 15.5%
+ ├─ Pico de RAM do Sistema: 4914.46 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.4625
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.7283
+ └─ mAP@0.5:0.95: 0.2817
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 52/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.00 s
+ ├─ Tempo Médio por Batch: 165.90 ms
+ ├─ Uso Médio da CPU Host: 19.4%
+ ├─ Pico de RAM do Sistema: 4884.74 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9120
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.8053
+ └─ mAP@0.5:0.95: 0.3501
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 53/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.96 s
+ ├─ Tempo Médio por Batch: 163.04 ms
+ ├─ Uso Médio da CPU Host: 17.2%
+ ├─ Pico de RAM do Sistema: 4833.42 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.7521
+ ├─ Recall (Validação): 0.6084
+ ├─ mAP@0.5: 0.7836
+ └─ mAP@0.5:0.95: 0.3167
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 54/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.00 s
+ ├─ Tempo Médio por Batch: 166.14 ms
+ ├─ Uso Médio da CPU Host: 21.0%
+ ├─ Pico de RAM do Sistema: 4879.23 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.7456
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.7650
+ └─ mAP@0.5:0.95: 0.3144
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 55/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.96 s
+ ├─ Tempo Médio por Batch: 163.05 ms
+ ├─ Uso Médio da CPU Host: 17.3%
+ ├─ Pico de RAM do Sistema: 4897.87 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.7456
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.7650
+ └─ mAP@0.5:0.95: 0.3144
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 56/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.01 s
+ ├─ Tempo Médio por Batch: 166.58 ms
+ ├─ Uso Médio da CPU Host: 19.7%
+ ├─ Pico de RAM do Sistema: 4800.89 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9888
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.8664
+ └─ mAP@0.5:0.95: 0.3729
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 57/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.96 s
+ ├─ Tempo Médio por Batch: 162.70 ms
+ ├─ Uso Médio da CPU Host: 17.7%
+ ├─ Pico de RAM do Sistema: 4791.66 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9427
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.8783
+ └─ mAP@0.5:0.95: 0.4173
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 58/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.95 s
+ ├─ Tempo Médio por Batch: 161.60 ms
+ ├─ Uso Médio da CPU Host: 17.6%
+ ├─ Pico de RAM do Sistema: 4783.88 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9445
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.8950
+ └─ mAP@0.5:0.95: 0.5028
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 59/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.96 s
+ ├─ Tempo Médio por Batch: 162.73 ms
+ ├─ Uso Médio da CPU Host: 18.2%
+ ├─ Pico de RAM do Sistema: 4717.33 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9445
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.8950
+ └─ mAP@0.5:0.95: 0.5028
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 60/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.00 s
+ ├─ Tempo Médio por Batch: 165.66 ms
+ ├─ Uso Médio da CPU Host: 19.0%
+ ├─ Pico de RAM do Sistema: 4728.23 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9793
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.9200
+ └─ mAP@0.5:0.95: 0.5014
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 61/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.98 s
+ ├─ Tempo Médio por Batch: 164.11 ms
+ ├─ Uso Médio da CPU Host: 16.8%
+ ├─ Pico de RAM do Sistema: 4679.53 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.8146
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9617
+ └─ mAP@0.5:0.95: 0.4787
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 62/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.94 s
+ ├─ Tempo Médio por Batch: 161.29 ms
+ ├─ Uso Médio da CPU Host: 16.1%
+ ├─ Pico de RAM do Sistema: 4647.62 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.6284
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.7783
+ └─ mAP@0.5:0.95: 0.3898
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 63/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.92 s
+ ├─ Tempo Médio por Batch: 159.57 ms
+ ├─ Uso Médio da CPU Host: 13.7%
+ ├─ Pico de RAM do Sistema: 4637.18 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.6284
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.7783
+ └─ mAP@0.5:0.95: 0.3898
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 64/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.92 s
+ ├─ Tempo Médio por Batch: 159.51 ms
+ ├─ Uso Médio da CPU Host: 14.2%
+ ├─ Pico de RAM do Sistema: 4694.12 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.6341
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.8394
+ └─ mAP@0.5:0.95: 0.4036
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 65/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.00 s
+ ├─ Tempo Médio por Batch: 165.83 ms
+ ├─ Uso Médio da CPU Host: 18.9%
+ ├─ Pico de RAM do Sistema: 4771.63 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.7032
+ ├─ Recall (Validação): 0.9535
+ ├─ mAP@0.5: 0.8307
+ └─ mAP@0.5:0.95: 0.4401
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 66/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.95 s
+ ├─ Tempo Médio por Batch: 162.22 ms
+ ├─ Uso Médio da CPU Host: 17.4%
+ ├─ Pico de RAM do Sistema: 4781.58 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.7869
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.8261
+ └─ mAP@0.5:0.95: 0.4681
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 67/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.99 s
+ ├─ Tempo Médio por Batch: 165.36 ms
+ ├─ Uso Médio da CPU Host: 18.8%
+ ├─ Pico de RAM do Sistema: 4755.63 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.7869
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.8261
+ └─ mAP@0.5:0.95: 0.4681
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 68/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.96 s
+ ├─ Tempo Médio por Batch: 162.73 ms
+ ├─ Uso Médio da CPU Host: 16.4%
+ ├─ Pico de RAM do Sistema: 4687.73 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.7876
+ ├─ Recall (Validação): 0.7504
+ ├─ mAP@0.5: 0.7864
+ └─ mAP@0.5:0.95: 0.4278
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 69/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.97 s
+ ├─ Tempo Médio por Batch: 163.86 ms
+ ├─ Uso Médio da CPU Host: 21.2%
+ ├─ Pico de RAM do Sistema: 4916.60 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.7962
+ ├─ Recall (Validação): 0.7847
+ ├─ mAP@0.5: 0.8264
+ └─ mAP@0.5:0.95: 0.4562
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 70/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.98 s
+ ├─ Tempo Médio por Batch: 163.97 ms
+ ├─ Uso Médio da CPU Host: 18.1%
+ ├─ Pico de RAM do Sistema: 4984.05 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.8533
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.9379
+ └─ mAP@0.5:0.95: 0.5152
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 71/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.98 s
+ ├─ Tempo Médio por Batch: 164.56 ms
+ ├─ Uso Médio da CPU Host: 18.9%
+ ├─ Pico de RAM do Sistema: 4931.15 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.8533
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.9379
+ └─ mAP@0.5:0.95: 0.5152
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 72/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.98 s
+ ├─ Tempo Médio por Batch: 164.01 ms
+ ├─ Uso Médio da CPU Host: 19.5%
+ ├─ Pico de RAM do Sistema: 4946.13 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9769
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.9200
+ └─ mAP@0.5:0.95: 0.4761
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 73/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.93 s
+ ├─ Tempo Médio por Batch: 160.40 ms
+ ├─ Uso Médio da CPU Host: 14.6%
+ ├─ Pico de RAM do Sistema: 4932.99 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.8234
+ ├─ Recall (Validação): 0.9406
+ ├─ mAP@0.5: 0.9617
+ └─ mAP@0.5:0.95: 0.4924
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 74/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.96 s
+ ├─ Tempo Médio por Batch: 162.71 ms
+ ├─ Uso Médio da CPU Host: 17.9%
+ ├─ Pico de RAM do Sistema: 4846.97 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9590
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.9617
+ └─ mAP@0.5:0.95: 0.4802
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 75/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.02 s
+ ├─ Tempo Médio por Batch: 167.29 ms
+ ├─ Uso Médio da CPU Host: 21.3%
+ ├─ Pico de RAM do Sistema: 4860.18 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9590
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.9617
+ └─ mAP@0.5:0.95: 0.4802
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 76/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.02 s
+ ├─ Tempo Médio por Batch: 167.63 ms
+ ├─ Uso Médio da CPU Host: 20.8%
+ ├─ Pico de RAM do Sistema: 4849.11 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 1.0000
+ ├─ Recall (Validação): 0.9380
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.4836
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 77/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.00 s
+ ├─ Tempo Médio por Batch: 165.41 ms
+ ├─ Uso Médio da CPU Host: 20.4%
+ ├─ Pico de RAM do Sistema: 4806.43 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 1.0000
+ ├─ Recall (Validação): 0.9903
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5901
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 78/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.00 s
+ ├─ Tempo Médio por Batch: 166.03 ms
+ ├─ Uso Médio da CPU Host: 19.4%
+ ├─ Pico de RAM do Sistema: 4845.45 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9818
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.4677
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 79/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.01 s
+ ├─ Tempo Médio por Batch: 166.61 ms
+ ├─ Uso Médio da CPU Host: 20.8%
+ ├─ Pico de RAM do Sistema: 4849.41 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9818
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.4677
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 80/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.92 s
+ ├─ Tempo Médio por Batch: 159.63 ms
+ ├─ Uso Médio da CPU Host: 13.7%
+ ├─ Pico de RAM do Sistema: 4835.07 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9857
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.4580
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 81/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.94 s
+ ├─ Tempo Médio por Batch: 161.00 ms
+ ├─ Uso Médio da CPU Host: 16.3%
+ ├─ Pico de RAM do Sistema: 4843.38 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9622
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5340
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 82/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.99 s
+ ├─ Tempo Médio por Batch: 165.28 ms
+ ├─ Uso Médio da CPU Host: 20.5%
+ ├─ Pico de RAM do Sistema: 4867.94 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9656
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5487
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 83/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.02 s
+ ├─ Tempo Médio por Batch: 167.07 ms
+ ├─ Uso Médio da CPU Host: 21.5%
+ ├─ Pico de RAM do Sistema: 4838.77 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9656
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5487
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 84/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.99 s
+ ├─ Tempo Médio por Batch: 165.20 ms
+ ├─ Uso Médio da CPU Host: 19.8%
+ ├─ Pico de RAM do Sistema: 4850.72 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9824
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.4961
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 85/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.00 s
+ ├─ Tempo Médio por Batch: 166.38 ms
+ ├─ Uso Médio da CPU Host: 19.9%
+ ├─ Pico de RAM do Sistema: 4756.01 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9814
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5007
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 86/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.99 s
+ ├─ Tempo Médio por Batch: 164.81 ms
+ ├─ Uso Médio da CPU Host: 18.1%
+ ├─ Pico de RAM do Sistema: 4709.16 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9768
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5343
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 87/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.99 s
+ ├─ Tempo Médio por Batch: 165.14 ms
+ ├─ Uso Médio da CPU Host: 19.1%
+ ├─ Pico de RAM do Sistema: 4788.14 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9768
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5343
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 88/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.98 s
+ ├─ Tempo Médio por Batch: 164.53 ms
+ ├─ Uso Médio da CPU Host: 18.9%
+ ├─ Pico de RAM do Sistema: 4763.38 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9692
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.6000
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 89/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.97 s
+ ├─ Tempo Médio por Batch: 163.52 ms
+ ├─ Uso Médio da CPU Host: 18.0%
+ ├─ Pico de RAM do Sistema: 4768.82 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9575
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5714
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 90/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.98 s
+ ├─ Tempo Médio por Batch: 164.08 ms
+ ├─ Uso Médio da CPU Host: 18.9%
+ ├─ Pico de RAM do Sistema: 4759.30 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9563
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5219
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 91/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.97 s
+ ├─ Tempo Médio por Batch: 163.72 ms
+ ├─ Uso Médio da CPU Host: 18.5%
+ ├─ Pico de RAM do Sistema: 4742.19 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9563
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5219
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 92/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.00 s
+ ├─ Tempo Médio por Batch: 165.58 ms
+ ├─ Uso Médio da CPU Host: 18.7%
+ ├─ Pico de RAM do Sistema: 4716.82 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9562
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5353
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 93/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.95 s
+ ├─ Tempo Médio por Batch: 161.74 ms
+ ├─ Uso Médio da CPU Host: 17.4%
+ ├─ Pico de RAM do Sistema: 4666.27 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9535
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5618
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 94/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.95 s
+ ├─ Tempo Médio por Batch: 161.85 ms
+ ├─ Uso Médio da CPU Host: 17.9%
+ ├─ Pico de RAM do Sistema: 4655.62 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9691
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5542
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 95/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.95 s
+ ├─ Tempo Médio por Batch: 161.63 ms
+ ├─ Uso Médio da CPU Host: 17.4%
+ ├─ Pico de RAM do Sistema: 4679.34 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9691
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5542
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 96/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.00 s
+ ├─ Tempo Médio por Batch: 166.16 ms
+ ├─ Uso Médio da CPU Host: 19.5%
+ ├─ Pico de RAM do Sistema: 4587.84 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9773
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5698
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 97/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.01 s
+ ├─ Tempo Médio por Batch: 166.54 ms
+ ├─ Uso Médio da CPU Host: 19.8%
+ ├─ Pico de RAM do Sistema: 4626.93 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9745
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5385
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 98/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.99 s
+ ├─ Tempo Médio por Batch: 165.36 ms
+ ├─ Uso Médio da CPU Host: 19.0%
+ ├─ Pico de RAM do Sistema: 4640.55 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 1.0000
+ ├─ Recall (Validação): 0.9892
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5065
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 99/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.03 s
+ ├─ Tempo Médio por Batch: 168.32 ms
+ ├─ Uso Médio da CPU Host: 21.8%
+ ├─ Pico de RAM do Sistema: 4578.98 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 1.0000
+ ├─ Recall (Validação): 0.9892
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5065
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 100/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.94 s
+ ├─ Tempo Médio por Batch: 161.10 ms
+ ├─ Uso Médio da CPU Host: 15.4%
+ ├─ Pico de RAM do Sistema: 4583.83 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9621
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.9617
+ └─ mAP@0.5:0.95: 0.5093
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 101/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.96 s
+ ├─ Tempo Médio por Batch: 163.03 ms
+ ├─ Uso Médio da CPU Host: 17.6%
+ ├─ Pico de RAM do Sistema: 4602.41 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9621
+ ├─ Recall (Validação): 0.8000
+ ├─ mAP@0.5: 0.9379
+ └─ mAP@0.5:0.95: 0.4912
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 102/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.91 s
+ ├─ Tempo Médio por Batch: 158.89 ms
+ ├─ Uso Médio da CPU Host: 13.8%
+ ├─ Pico de RAM do Sistema: 4585.67 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.8076
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9617
+ └─ mAP@0.5:0.95: 0.5091
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 103/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.93 s
+ ├─ Tempo Médio por Batch: 160.20 ms
+ ├─ Uso Médio da CPU Host: 14.8%
+ ├─ Pico de RAM do Sistema: 4582.41 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.8076
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9617
+ └─ mAP@0.5:0.95: 0.5091
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 104/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.95 s
+ ├─ Tempo Médio por Batch: 161.51 ms
+ ├─ Uso Médio da CPU Host: 16.9%
+ ├─ Pico de RAM do Sistema: 4575.21 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 1.0000
+ ├─ Recall (Validação): 0.9606
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5190
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 105/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.92 s
+ ├─ Tempo Médio por Batch: 159.68 ms
+ ├─ Uso Médio da CPU Host: 14.7%
+ ├─ Pico de RAM do Sistema: 4576.13 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 1.0000
+ ├─ Recall (Validação): 0.9646
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5353
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 106/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.91 s
+ ├─ Tempo Médio por Batch: 158.72 ms
+ ├─ Uso Médio da CPU Host: 13.9%
+ ├─ Pico de RAM do Sistema: 4608.68 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 1.0000
+ ├─ Recall (Validação): 0.9580
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5008
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 107/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.91 s
+ ├─ Tempo Médio por Batch: 158.43 ms
+ ├─ Uso Médio da CPU Host: 13.4%
+ ├─ Pico de RAM do Sistema: 4547.21 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 1.0000
+ ├─ Recall (Validação): 0.9580
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5008
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 108/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.92 s
+ ├─ Tempo Médio por Batch: 159.41 ms
+ ├─ Uso Médio da CPU Host: 13.7%
+ ├─ Pico de RAM do Sistema: 4604.81 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 1.0000
+ ├─ Recall (Validação): 0.9388
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.4876
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 109/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.95 s
+ ├─ Tempo Médio por Batch: 161.64 ms
+ ├─ Uso Médio da CPU Host: 14.1%
+ ├─ Pico de RAM do Sistema: 4634.98 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 1.0000
+ ├─ Recall (Validação): 0.9491
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5008
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 110/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.92 s
+ ├─ Tempo Médio por Batch: 159.83 ms
+ ├─ Uso Médio da CPU Host: 15.9%
+ ├─ Pico de RAM do Sistema: 4815.16 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 1.0000
+ ├─ Recall (Validação): 0.9638
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.4938
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 111/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 3.68 s
+ ├─ Tempo Médio por Batch: 223.15 ms
+ ├─ Uso Médio da CPU Host: 18.8%
+ ├─ Pico de RAM do Sistema: 4627.32 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 1.0000
+ ├─ Recall (Validação): 0.9638
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.4938
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 112/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.92 s
+ ├─ Tempo Médio por Batch: 159.00 ms
+ ├─ Uso Médio da CPU Host: 12.7%
+ ├─ Pico de RAM do Sistema: 4767.52 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 1.0000
+ ├─ Recall (Validação): 0.9827
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.4846
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 113/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.91 s
+ ├─ Tempo Médio por Batch: 158.93 ms
+ ├─ Uso Médio da CPU Host: 13.6%
+ ├─ Pico de RAM do Sistema: 4879.00 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 1.0000
+ ├─ Recall (Validação): 0.9966
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.4897
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 114/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.90 s
+ ├─ Tempo Médio por Batch: 157.61 ms
+ ├─ Uso Médio da CPU Host: 12.8%
+ ├─ Pico de RAM do Sistema: 4992.77 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 1.0000
+ ├─ Recall (Validação): 0.9970
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5337
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 115/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.91 s
+ ├─ Tempo Médio por Batch: 158.84 ms
+ ├─ Uso Médio da CPU Host: 14.5%
+ ├─ Pico de RAM do Sistema: 5080.26 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 1.0000
+ ├─ Recall (Validação): 0.9970
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5337
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 116/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.91 s
+ ├─ Tempo Médio por Batch: 158.24 ms
+ ├─ Uso Médio da CPU Host: 12.4%
+ ├─ Pico de RAM do Sistema: 5063.79 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9832
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5434
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 117/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.92 s
+ ├─ Tempo Médio por Batch: 159.37 ms
+ ├─ Uso Médio da CPU Host: 13.9%
+ ├─ Pico de RAM do Sistema: 5078.88 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9752
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5434
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 118/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.90 s
+ ├─ Tempo Médio por Batch: 157.65 ms
+ ├─ Uso Médio da CPU Host: 12.5%
+ ├─ Pico de RAM do Sistema: 5084.74 MB
+ └─ Pico de Alocação VRAM: 1846.91 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9756
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5284
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 119/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.90 s
+ ├─ Tempo Médio por Batch: 158.04 ms
+ ├─ Uso Médio da CPU Host: 12.6%
+ ├─ Pico de RAM do Sistema: 5087.41 MB
+ └─ Pico de Alocação VRAM: 1846.26 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9756
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5284
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 120/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 1.91 s
+ ├─ Tempo Médio por Batch: 158.36 ms
+ ├─ Uso Médio da CPU Host: 12.4%
+ ├─ Pico de RAM do Sistema: 5073.41 MB
+ └─ Pico de Alocação VRAM: 1845.85 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.9795
+ ├─ Recall (Validação): 1.0000
+ ├─ mAP@0.5: 0.9950
+ └─ mAP@0.5:0.95: 0.5201
+====================================================
+

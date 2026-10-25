@@ -1,0 +1,33 @@
+=== RELATÓRIO OFICIAL DE VALIDAÇÃO E LATÊNCIA ===
+
+1. CARREGANDO MODELO EM MODO DE AVALIAÇÃO...
+
+2. EXECUTANDO AVALIAÇÃO NO SPLIT DE TESTE...
+====================================================
+=== MÉTRICAS DE QUALIDADE (SPLIT: TEST) ===
+====================================================
+ - Precision (Precisão): 0.9344
+ - Recall (Revocação): 0.5000
+ - F1-Score: 0.6514
+ - mAP@0.5: 0.4950
+ - mAP@0.5:0.95: 0.3465
+ - Matriz de Confusão & Gráficos salvos em: /home/mariana-costa/Documentos/projects/viper/VIPER/runs/detect/val
+====================================================
+
+
+3. INICIANDO BENCHMARK DE LATÊNCIA E FPS (BATCH SIZE = 1)...
+ ├─ Executando Warm-up (50 iterações)...
+ ├─ Medindo latências isoladas ao longo de 100 execuções...
+====================================================
+=== BENCHMARK DE LATÊNCIA E DESEMPENHO EM TEMPO REAL ===
+====================================================
+ - Hardware Utilizado: NVIDIA GeForce RTX 3050 Laptop GPU
+ - Configuração: Batch Size = 1 | Img Size = 640x640
+ - Pré-processamento Médio: 0.01 ms
+ - Forward Pass (Infêrencia) Médio: 11.28 ms
+ - Pós-processamento / NMS Médio: 1.85 ms
+ - Latência Total End-to-End: 13.14 ms
+ - Taxa de Quadros (FPS Real): 76.08 FPS
+====================================================
+
+ Testes de validação finalizados! Relatório salvo em 'relatorio_validacao.txt'.

@@ -1,0 +1,63 @@
+=== STDOUT ===
+================================================================================
+VIPER - ETAPA 4: LEITURA E PÓS-PROCESSAMENTO EM LOTE (BATCH)
+================================================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Uso de CPU Host: 12.2%
+ ├─ Memória RAM Usada: 3203.90 MB / 7236.25 MB (44.3%)
+ └─ GPU & VRAM: NVIDIA GeForce RTX 3050 Laptop GPU | Alocada: 96.35 MB | Pico: 110.86 MB | Reservada: 128.00 MB
+================================================================================
+
+[1/5] ARQUIVO: limpa_car01.jpeg
+  ├─ Placa Identificada: CDV2I72 (Mercosul)
+  ├─ Tempo OCR: 297.24 ms | Render: 17.11 ms | Log: 0.14 ms
+  ├─ Precisão Geométrica (IoU): 0.9654
+  └─ Validação ROI Campus: ✅ Aprovado
+
+[2/5] ARQUIVO: limpa_car02.jpeg
+  ├─ Placa Identificada: IOZ4I93 (Mercosul)
+  ├─ Tempo OCR: 54.10 ms | Render: 0.64 ms | Log: 0.18 ms
+  ├─ Precisão Geométrica (IoU): 0.9675
+  └─ Validação ROI Campus: ✅ Aprovado
+
+[3/5] ARQUIVO: limpa_car05.jpeg
+  ├─ Placa Identificada: BRA3R52 (Mercosul)
+  ├─ Tempo OCR: 56.62 ms | Render: 0.49 ms | Log: 0.11 ms
+  ├─ Precisão Geométrica (IoU): 0.9695
+  └─ Validação ROI Campus: ✅ Aprovado
+
+[4/5] ARQUIVO: limpa_car04.jpeg
+  ├─ Placa Identificada: POX4G21 (Mercosul)
+  ├─ Tempo OCR: 88.95 ms | Render: 0.75 ms | Log: 0.15 ms
+  ├─ Precisão Geométrica (IoU): 0.9687
+  └─ Validação ROI Campus: ✅ Aprovado
+
+[5/5] ARQUIVO: limpa_car03.jpeg
+  ├─ Placa Identificada: GGC8H75 (Mercosul)
+  ├─ Tempo OCR: 58.22 ms | Render: 0.60 ms | Log: 0.15 ms
+  ├─ Precisão Geométrica (IoU): 0.9678
+  └─ Validação ROI Campus: ✅ Aprovado
+
+================================================================================
+RESUMO CONSOLIDADO DA EXECUÇÃO EM LOTE
+================================================================================
+ - Total de Imagens Processadas: 5
+ - Placas Validadas (Mercosul / Antigo): 5 (100.0%)
+ - Tempo Médio de OCR: 111.03 ms
+ - Tempo Médio de Renderização/Escrita: 3.92 ms
+ - Overhead Médio de Log/Serialização: 0.15 ms
+ - Média Global de Precisão Geométrica (IoU): 0.9678
+ - Tempo Total Geral de Execução: 0.58 s (0.01 min)
+----------------------------------------------------
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Uso de CPU Host: 17.2%
+ ├─ Memória RAM Usada: 3491.52 MB / 7236.25 MB (48.3%)
+ └─ GPU & VRAM: NVIDIA GeForce RTX 3050 Laptop GPU | Alocada: 104.47 MB | Pico: 256.79 MB | Reservada: 342.00 MB
+================================================================================
+
+📄 Relatório em lote salvo com sucesso em: '/home/mariana-costa/Documentos/projects/viper/VIPER/relatorio_leitura.txt'
+
+
+=== STDERR ===
+
+Exit Code: 0

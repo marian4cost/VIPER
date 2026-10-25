@@ -1,0 +1,76 @@
+=== STDOUT ===
+======================================================================
+RELATÓRIO DE DESEMPENHO E QUALIDADE DE PRÉ-PROCESSAMENTO
+======================================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Uso de CPU Host: 24.0%
+ ├─ Memória RAM Usada: 2938.52 MB / 7236.25 MB (40.6%)
+ └─ GPU & VRAM: NVIDIA GeForce RTX 3050 Laptop GPU | Alocada: 0.00 MB | Pico: 0.00 MB | Reservada: 0.00 MB
+======================================================================
+
+[1] TESTE DE TEMPO POR OPERAÇÃO UNITÁRIA
+ - Imagens testadas: 5
+ - Média de I/O de disco (cv2.imread): 1.21 ms
+ - Média de operações de CPU (RGB + Letterbox + Normalização): 3.40 ms
+ - Razão I/O / CPU: 0.36x
+ - Tempo total da etapa 1: 0.02 s
+
+[2] THROUGHPUT DO PREPROCESSAMENTO (SEM INFERÊNCIA)
+ - Total de iterações: 15
+ - Tempo total gasto: 0.02 segundos
+ - Throughput de pré-processamento: 759.00 img/s
+
+[3] AVALIAÇÃO DE PRESERVAÇÃO DE RESOLUÇÃO (IMGSZ)
+   • Arquivo: car04.jpeg (Original: 678x452)
+     - Resolução 320x320: Fator de Escala=0.4720 | Distorção Aspect Ratio=0.0023
+     - Resolução 416x416: Fator de Escala=0.6136 | Distorção Aspect Ratio=0.0018
+     - Resolução 640x640: Fator de Escala=0.9440 | Distorção Aspect Ratio=0.0012
+
+   • Arquivo: car05.jpeg (Original: 739x415)
+     - Resolução 320x320: Fator de Escala=0.4330 | Distorção Aspect Ratio=0.0029
+     - Resolução 416x416: Fator de Escala=0.5629 | Distorção Aspect Ratio=0.0029
+     - Resolução 640x640: Fator de Escala=0.8660 | Distorção Aspect Ratio=0.0020
+
+   • Arquivo: car01.jpeg (Original: 500x375)
+     - Resolução 320x320: Fator de Escala=0.6400 | Distorção Aspect Ratio=0.0000
+     - Resolução 416x416: Fator de Escala=0.8320 | Distorção Aspect Ratio=0.0000
+     - Resolução 640x640: Fator de Escala=1.2800 | Distorção Aspect Ratio=0.0000
+
+   • Arquivo: car03.jpeg (Original: 531x376)
+     - Resolução 320x320: Fator de Escala=0.6026 | Distorção Aspect Ratio=0.0025
+     - Resolução 416x416: Fator de Escala=0.7834 | Distorção Aspect Ratio=0.0021
+     - Resolução 640x640: Fator de Escala=1.2053 | Distorção Aspect Ratio=0.0006
+
+   • Arquivo: car02.jpeg (Original: 639x479)
+     - Resolução 320x320: Fator de Escala=0.5008 | Distorção Aspect Ratio=0.0007
+     - Resolução 416x416: Fator de Escala=0.6510 | Distorção Aspect Ratio=0.0007
+     - Resolução 640x640: Fator de Escala=1.0016 | Distorção Aspect Ratio=0.0007
+
+ - Tempo total da avaliação de resoluções: 0.01 s
+
+[4] RESULTADO DA EXECUÇÃO DO PIPELINE DE DETECÇÃO/PRÉ-PROCESSAMENTO
+   - ✅ car04.jpeg: Placa recortada e binarizada via YOLO salva em '/home/mariana-costa/Documentos/projects/viper/VIPER/placas_finalizadas/limpa_car04.jpeg'
+   - 🔄 car05.jpeg: Placa recuperada via Fallback de Contornos salva em '/home/mariana-costa/Documentos/projects/viper/VIPER/placas_finalizadas/limpa_car05.jpeg'
+   - ✅ car01.jpeg: Placa recortada e binarizada via YOLO salva em '/home/mariana-costa/Documentos/projects/viper/VIPER/placas_finalizadas/limpa_car01.jpeg'
+   - ✅ car03.jpeg: Placa recortada e binarizada via YOLO salva em '/home/mariana-costa/Documentos/projects/viper/VIPER/placas_finalizadas/limpa_car03.jpeg'
+   - ✅ car02.jpeg: Placa recortada e binarizada via YOLO salva em '/home/mariana-costa/Documentos/projects/viper/VIPER/placas_finalizadas/limpa_car02.jpeg'
+
+Total de placas finalizadas com sucesso: 5/5
+Tempo da etapa de detecção/binarização: 1.99 s
+Tempo total dos testes de pré-processamento: 2.23 s
+
+======================================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Uso de CPU Host: 12.7%
+ ├─ Memória RAM Usada: 3701.75 MB / 7236.25 MB (51.2%)
+ └─ GPU & VRAM: NVIDIA GeForce RTX 3050 Laptop GPU | Alocada: 34.46 MB | Pico: 100.53 MB | Reservada: 128.00 MB
+======================================================================
+
+📄 Relatório atualizado salvo em: '/home/mariana-costa/Documentos/projects/viper/VIPER/relatorio_testes_preprocessamento.txt'
+
+
+=== STDERR ===
+/home/mariana-costa/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/matplotlib-ofmuu2gm because there was an issue with the default path ({configdir}); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+
+Exit Code: 0

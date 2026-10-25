@@ -1,0 +1,116 @@
+=== RELATÓRIO COMPLETO DE TREINAMENTO (HARDWARE + MODELO) ===
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 1/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 3.43 s
+ ├─ Tempo Médio por Batch: 285.15 ms
+ ├─ Uso Médio da CPU Host: 25.3%
+ ├─ Pico de RAM do Sistema: 5893.94 MB
+ └─ Pico de Alocação VRAM: 1891.50 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0000
+ ├─ Recall (Validação): 0.0000
+ ├─ mAP@0.5: 0.0000
+ └─ mAP@0.5:0.95: 0.0000
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 2/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.18 s
+ ├─ Tempo Médio por Batch: 180.60 ms
+ ├─ Uso Médio da CPU Host: 26.5%
+ ├─ Pico de RAM do Sistema: 5731.15 MB
+ └─ Pico de Alocação VRAM: 1823.39 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0020
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.4283
+ └─ mAP@0.5:0.95: 0.2109
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 3/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.11 s
+ ├─ Tempo Médio por Batch: 174.96 ms
+ ├─ Uso Médio da CPU Host: 22.7%
+ ├─ Pico de RAM do Sistema: 5526.84 MB
+ └─ Pico de Alocação VRAM: 1822.87 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0020
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.4000
+ └─ mAP@0.5:0.95: 0.0888
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 4/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.06 s
+ ├─ Tempo Médio por Batch: 171.06 ms
+ ├─ Uso Médio da CPU Host: 22.0%
+ ├─ Pico de RAM do Sistema: 5640.87 MB
+ └─ Pico de Alocação VRAM: 1823.46 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0020
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.0603
+ └─ mAP@0.5:0.95: 0.0158
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 5/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.12 s
+ ├─ Tempo Médio por Batch: 175.81 ms
+ ├─ Uso Médio da CPU Host: 16.9%
+ ├─ Pico de RAM do Sistema: 5752.49 MB
+ └─ Pico de Alocação VRAM: 1846.70 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0020
+ ├─ Recall (Validação): 0.6000
+ ├─ mAP@0.5: 0.0093
+ └─ mAP@0.5:0.95: 0.0018
+====================================================
+
+====================================================
+[DIAGNÓSTICO COMPLETO ÉPOCA 6/120]
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Duração da Época (t_epoch): 2.16 s
+ ├─ Tempo Médio por Batch: 179.48 ms
+ ├─ Uso Médio da CPU Host: 24.8%
+ ├─ Pico de RAM do Sistema: 5763.54 MB
+ └─ Pico de Alocação VRAM: 1847.30 MB
+🎯 APRENDIZADO & DESEMPENHO DO MODELO:
+ ├─ Box Loss (Ajuste Caixa): 0.0000
+ ├─ Class Loss (Detecção Placa): 0.0000
+ ├─ DFL Loss (Ajuste Bordas): 0.0000
+ ├─ Precision (Validação): 0.0013
+ ├─ Recall (Validação): 0.4000
+ ├─ mAP@0.5: 0.0025
+ └─ mAP@0.5:0.95: 0.0003
+====================================================
+

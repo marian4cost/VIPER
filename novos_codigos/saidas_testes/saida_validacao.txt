@@ -1,0 +1,222 @@
+=== STDOUT ===
+====================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Uso de CPU Host: 0.0%
+ ├─ Memória RAM Usada: 2979.00 MB / 7236.25 MB (41.2%)
+ └─ GPU & VRAM: NVIDIA GeForce RTX 3050 Laptop GPU | Alocada: 0.00 MB | Pico: 0.00 MB | Reservada: 0.00 MB
+====================================================
+
+1. CARREGANDO MODELO EM MODO DE AVALIAÇÃO...
+   Pesos: /home/mariana-costa/Documentos/projects/viper/VIPER/runs/detect/runs/detect/placa_detector/weights/best.pt
+
+2. EXECUTANDO AVALIAÇÃO NO SPLIT DE TESTE...
+Ultralytics 8.4.117 🚀 Python-3.14.4 torch-2.13.0+cu130 CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 3762MiB)
+Model summary (fused): 73 layers, 3,005,843 parameters, 0 gradients, 8.1 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 254.6±96.1 MB/s, size: 17.6 KB)
+
+[K[34m[1mval: [0mScanning /home/mariana-costa/Documentos/projects/viper/VIPER/images/test/labels.cache... 2 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2/2 466.0Kit/s 0.0s
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 9.9it/s 0.1s
+                   all          2          2          0          0          0          0
+Speed: 0.3ms preprocess, 22.1ms inference, 0.0ms loss, 0.9ms postprocess per image
+Results saved to [1m/home/mariana-costa/Documentos/projects/viper/VIPER/runs/detect/val-6[0m
+====================================================
+=== MÉTRICAS DE QUALIDADE (SPLIT: TEST) ===
+====================================================
+ - Precision (Precisão): 0.0000
+ - Recall (Revocação): 0.0000
+ - F1-Score: 0.0000
+ - mAP@0.5: 0.0000
+ - mAP@0.5:0.95: 0.0000
+ - Matriz de Confusão & Gráficos salvos em: /home/mariana-costa/Documentos/projects/viper/VIPER/runs/detect/val-6
+ - Tempo Total da Validação: 2.76 s
+----------------------------------------------------
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Uso de CPU Host: 12.3%
+ ├─ Memória RAM Usada: 3856.63 MB / 7236.25 MB (53.3%)
+ └─ GPU & VRAM: NVIDIA GeForce RTX 3050 Laptop GPU | Alocada: 11.59 MB | Pico: 56.37 MB | Reservada: 90.00 MB
+====================================================
+
+
+3. INICIANDO BENCHMARK DE LATÊNCIA E FPS (BATCH SIZE = 1)...
+ ├─ Executando Warm-up (50 iterações)...
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+ ├─ Medindo latências isoladas ao longo de 100 execuções...
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+WARNING ⚠️ torch.Tensor inputs should be normalized 0.0-1.0 but max value is 254. Dividing input by 255.
+====================================================
+=== BENCHMARK DE LATÊNCIA E DESEMPENHO EM TEMPO REAL ===
+====================================================
+ - Hardware Utilizado: NVIDIA GeForce RTX 3050 Laptop GPU
+ - Configuração: Batch Size = 1 | Img Size = 640x640
+ - Pré-processamento Médio: 0.01 ms
+ - Forward Pass (Inferência) Médio: 4.58 ms
+ - Pós-processamento / NMS Médio: 0.87 ms
+ - Latência Total End-to-End: 5.46 ms
+ - Taxa de Quadros (FPS Real): 183.29 FPS
+ - Tempo Total do Benchmark: 0.93 s
+ - Tempo Geral de Execução: 3.84 s
+----------------------------------------------------
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Uso de CPU Host: 11.3%
+ ├─ Memória RAM Usada: 3850.14 MB / 7236.25 MB (53.2%)
+ └─ GPU & VRAM: NVIDIA GeForce RTX 3050 Laptop GPU | Alocada: 17.44 MB | Pico: 56.37 MB | Reservada: 90.00 MB
+====================================================
+
+✨ Testes de validação finalizados! Relatório salvo em '/home/mariana-costa/Documentos/projects/viper/VIPER/relatorio_validacao.txt'.
+
+
+=== STDERR ===
+/home/mariana-costa/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/matplotlib-e3gj8cvy because there was an issue with the default path ({configdir}); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Authorization required, but no authorization protocol specified
+
+
+Exit Code: 0

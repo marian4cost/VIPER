@@ -1,0 +1,59 @@
+=== STDOUT ===
+🚀 Carregando modelos YOLO e EasyOCR...
+================================================================================
+PIPELINE INTEGRADO VIPER - PRÉ-PROCESSAMENTO, IDENTIFICAÇÃO E OCR
+================================================================================
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Uso de CPU Host: 0.0%
+ ├─ Memória RAM Usada: 3058.94 MB / 7236.25 MB (42.3%)
+ └─ GPU & VRAM: NVIDIA GeForce RTX 3050 Laptop GPU | Alocada: 0.00 MB | Pico: 0.00 MB | Reservada: 0.00 MB
+================================================================================
+
+[1/5] ARQUIVO: car04.jpeg
+  ├─ Placa Binarizada Salva em: /home/mariana-costa/Documentos/projects/viper/VIPER/placas_processadas/limpa_car04.jpeg
+  ├─ Placa Identificada: POX4G21 (Mercosul)
+  └─ Tempo total pipeline: 635.76 ms (OCR: 112.03 ms)
+
+[2/5] ARQUIVO: car05.jpeg
+  ├─ Placa Binarizada Salva em: /home/mariana-costa/Documentos/projects/viper/VIPER/placas_processadas/limpa_car05.jpeg
+  ├─ Placa Identificada: BRA3R52 (Mercosul)
+  └─ Tempo total pipeline: 213.60 ms (OCR: 63.28 ms)
+
+[3/5] ARQUIVO: car01.jpeg
+  ├─ Placa Binarizada Salva em: /home/mariana-costa/Documentos/projects/viper/VIPER/placas_processadas/limpa_car01.jpeg
+  ├─ Placa Identificada: CDV2I72 (Mercosul)
+  └─ Tempo total pipeline: 246.66 ms (OCR: 43.15 ms)
+
+[4/5] ARQUIVO: car03.jpeg
+  ├─ Placa Binarizada Salva em: /home/mariana-costa/Documentos/projects/viper/VIPER/placas_processadas/limpa_car03.jpeg
+  ├─ Placa Identificada: GGC8H75 (Mercosul)
+  └─ Tempo total pipeline: 93.88 ms (OCR: 37.85 ms)
+
+[5/5] ARQUIVO: car02.jpeg
+  ├─ Placa Binarizada Salva em: /home/mariana-costa/Documentos/projects/viper/VIPER/placas_processadas/limpa_car02.jpeg
+  ├─ Placa Identificada: IOZ4I93 (Mercosul)
+  └─ Tempo total pipeline: 103.73 ms (OCR: 46.05 ms)
+
+================================================================================
+RESUMO DA EXECUÇÃO INTEGRADA
+================================================================================
+ - Total de Imagens Processadas: 5
+ - Placas com Leitura Aprovada: 5 (100.0%)
+ - Tempo Médio Total por Imagem: 258.72 ms
+ - Tempo Médio Exclusivo de OCR: 60.47 ms
+ - Tempo Total do Pipeline: 2.98 s (0.05 min)
+----------------------------------------------------
+💻 HARDWARE & COMPUTAÇÃO:
+ ├─ Uso de CPU Host: 12.4%
+ ├─ Memória RAM Usada: 3775.12 MB / 7236.25 MB (52.2%)
+ └─ GPU & VRAM: NVIDIA GeForce RTX 3050 Laptop GPU | Alocada: 153.20 MB | Pico: 273.50 MB | Reservada: 364.00 MB
+================================================================================
+
+📄 Relatório consolidado gerado e salvo em: '/home/mariana-costa/Documentos/projects/viper/VIPER/relatorio_execucao_main.txt'
+
+
+=== STDERR ===
+/home/mariana-costa/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/matplotlib-cxseosyr because there was an issue with the default path ({configdir}); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+
+Exit Code: 0

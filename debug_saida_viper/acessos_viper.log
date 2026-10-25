@@ -1,0 +1,25 @@
+Arquivo: car04.jpeg | Placa: POX21 | Tipo: Padrão incerto | OCR Time: 125.36ms
+Arquivo: car05.jpeg | Placa: BRA3R52 | Tipo: Mercosul | OCR Time: 65.99ms
+Arquivo: car01.jpeg | Placa: NÃO RECONHECIDA | Tipo: Padrão incerto | OCR Time: 103.18ms
+Arquivo: car03.jpeg | Placa: NÃO RECONHECIDA | Tipo: Padrão incerto | OCR Time: 51.03ms
+Arquivo: car02.jpeg | Placa: ZOZ4I99 | Tipo: Mercosul | OCR Time: 67.50ms
+{'arquivo': 'limpa_car01.jpeg', 'timestamp': 1789396361.5472438, 'placa': 'CDV2I72', 'tipo_padrao': 'Mercosul', 'validado': True, 'bbox': [[62.0, 26.0], [368.0, 26.0], [368.0, 115.0], [62.0, 115.0]], 'tempo_ocr_ms': 364.0876979998211}
+{'arquivo': 'limpa_car02.jpeg', 'timestamp': 1789396361.6004884, 'placa': 'IOZ4I93', 'tipo_padrao': 'Mercosul', 'validado': True, 'bbox': [[0.0, 54.0], [376.0, 54.0], [376.0, 142.0], [0.0, 142.0]], 'tempo_ocr_ms': 52.10323999972388}
+{'arquivo': 'limpa_car05.jpeg', 'timestamp': 1789396361.6604574, 'placa': 'BRA3R52', 'tipo_padrao': 'Mercosul', 'validado': True, 'bbox': [[21.0, 4.0], [376.0, 4.0], [376.0, 104.0], [21.0, 104.0]], 'tempo_ocr_ms': 59.231197999906726}
+{'arquivo': 'limpa_car04.jpeg', 'timestamp': 1789396361.7589815, 'placa': 'POX4G21', 'tipo_padrao': 'Mercosul', 'validado': True, 'bbox': [[40.0, 72.0], [347.0, 72.0], [347.0, 177.0], [40.0, 177.0]], 'tempo_ocr_ms': 97.21550899985232}
+{'arquivo': 'limpa_car03.jpeg', 'timestamp': 1789396361.8073907, 'placa': 'GGC8H75', 'tipo_padrao': 'Mercosul', 'validado': True, 'bbox': [[0.0, 27.0], [362.0, 27.0], [362.0, 118.0], [0.0, 118.0]], 'tempo_ocr_ms': 47.31280800024251}
+Arquivo: car04.jpeg | Placa: POX4G21 | Tipo: Mercosul | OCR Time: 120.66ms
+Arquivo: car05.jpeg | Placa: BRA3R52 | Tipo: Mercosul | OCR Time: 60.42ms
+Arquivo: car01.jpeg | Placa: CDV2I72 | Tipo: Mercosul | OCR Time: 38.41ms
+Arquivo: car03.jpeg | Placa: GGC8H75 | Tipo: Mercosul | OCR Time: 45.03ms
+Arquivo: car02.jpeg | Placa: IOZ4I93 | Tipo: Mercosul | OCR Time: 50.06ms
+{'arquivo': 'limpa_car01.jpeg', 'timestamp': 1789396499.0145516, 'placa': 'CDV2I72', 'tipo_padrao': 'Mercosul', 'validado': True, 'bbox': [[62.0, 26.0], [368.0, 26.0], [368.0, 115.0], [62.0, 115.0]], 'tempo_ocr_ms': 297.2364239999479}
+{'arquivo': 'limpa_car02.jpeg', 'timestamp': 1789396499.0700192, 'placa': 'IOZ4I93', 'tipo_padrao': 'Mercosul', 'validado': True, 'bbox': [[0.0, 54.0], [376.0, 54.0], [376.0, 142.0], [0.0, 142.0]], 'tempo_ocr_ms': 54.09983299978194}
+{'arquivo': 'limpa_car05.jpeg', 'timestamp': 1789396499.127794, 'placa': 'BRA3R52', 'tipo_padrao': 'Mercosul', 'validado': True, 'bbox': [[21.0, 4.0], [376.0, 4.0], [376.0, 104.0], [21.0, 104.0]], 'tempo_ocr_ms': 56.624723999902926}
+{'arquivo': 'limpa_car04.jpeg', 'timestamp': 1789396499.2181573, 'placa': 'POX4G21', 'tipo_padrao': 'Mercosul', 'validado': True, 'bbox': [[40.0, 72.0], [347.0, 72.0], [347.0, 177.0], [40.0, 177.0]], 'tempo_ocr_ms': 88.95468399987294}
+{'arquivo': 'limpa_car03.jpeg', 'timestamp': 1789396499.2776005, 'placa': 'GGC8H75', 'tipo_padrao': 'Mercosul', 'validado': True, 'bbox': [[0.0, 27.0], [362.0, 27.0], [362.0, 118.0], [0.0, 118.0]], 'tempo_ocr_ms': 58.21519199980685}
+Arquivo: car04.jpeg | Placa: POX4G21 | Tipo: Mercosul | OCR Time: 112.03ms
+Arquivo: car05.jpeg | Placa: BRA3R52 | Tipo: Mercosul | OCR Time: 63.28ms
+Arquivo: car01.jpeg | Placa: CDV2I72 | Tipo: Mercosul | OCR Time: 43.15ms
+Arquivo: car03.jpeg | Placa: GGC8H75 | Tipo: Mercosul | OCR Time: 37.85ms
+Arquivo: car02.jpeg | Placa: IOZ4I93 | Tipo: Mercosul | OCR Time: 46.05ms
