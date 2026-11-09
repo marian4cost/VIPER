@@ -6,11 +6,11 @@ binarização e leitura OCR com validação heurística Mercosul/antigo e teleme
 import os
 import sys
 
-SRC_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "src")
-if SRC_DIR not in sys.path:
-    sys.path.insert(0, SRC_DIR)
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+if ROOT_DIR not in sys.path:
+    sys.path.insert(0, ROOT_DIR)
 
-from main import executar_pipeline_completo
+from src.main import executar_pipeline_completo
 
 if __name__ == "__main__":
     executar_pipeline_completo()

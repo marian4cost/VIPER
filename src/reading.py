@@ -335,5 +335,7 @@ def main():
     print(f"📄 Relatório em lote salvo com sucesso em: '{ARQUIVO_RELATORIO}'")
 
 
+executar_testes_leitura = main
+
 if __name__ == "__main__":
     main()

@@ -26,10 +26,11 @@
   - [x] Restaurar e aprimorar o `README.md` com a arquitetura completa, telemetria e instruções de uso.
   - [x] *Commit da documentação e configurações*.
 
-- [ ] **Etapa 5: Validação da Integridade e Testes de Importação**
-  - [ ] Verificar a sintaxe e importações de todos os scripts Python reorganizados.
-  - [ ] Testar execução dos módulos principais e de telemetria.
-  - [ ] *Commit final de ajustes e validação*.
+- [x] **Etapa 5: Validação da Integridade e Testes de Importação**
+  - [x] Verificar a sintaxe e importações de todos os scripts Python reorganizados.
+  - [x] Testar execução dos módulos principais e de telemetria.
+  - [x] Validar geração do PDF executivo do projeto (`relatorio_viper_projeto.pdf`).
+  - [x] *Commit final de ajustes e validação*.
 
 - [ ] **Etapa 6: Documentação e Explicação Detalhada Final**
   - [ ] Gerar documentação explicativa de cada pasta e arquivo do projeto para o usuário.
