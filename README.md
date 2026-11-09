@@ -4,8 +4,6 @@ Sistema de detecção, rastreamento e reconhecimento automático de placas veicu
 
 O **VIPER** utiliza técnicas de visão computacional e Deep Learning para identificar veículos, localizar suas placas e realizar o reconhecimento dos caracteres, com suporte ao padrão brasileiro de placas Mercosul.
 
----
-
 ## Sobre o projeto
 
 O VIPER (*Vehicle Identification and Plate Extraction Recognition*) é um projeto de pesquisa e desenvolvimento voltado à construção de uma solução de reconhecimento automático de placas veiculares (ALPR — *Automatic License Plate Recognition*).
@@ -25,8 +23,6 @@ O projeto busca explorar a integração de modelos de Deep Learning e técnicas 
 - Estruturar os registros obtidos para posterior consulta e análise.
 - Investigar a viabilidade de execução em dispositivos embarcados.
 
----
-
 ## Tecnologias utilizadas
 
 | Tecnologia | Aplicação |
@@ -38,8 +34,6 @@ O projeto busca explorar a integração de modelos de Deep Learning e técnicas 
 | EasyOCR | Reconhecimento óptico de caracteres. |
 | NumPy | Operações e manipulação de matrizes. |
 | Pandas | Organização e manipulação de dados. |
-
----
 
 ## Arquitetura geral
 
@@ -58,8 +52,6 @@ O fluxo geral de funcionamento é composto pelas seguintes etapas:
 9. **Armazenamento:** organização dos resultados para registro e análise posterior.
 
 Essa divisão permite desenvolver, testar e aprimorar cada etapa individualmente, facilitando a manutenção e a evolução do sistema.
-
----
 
 ## Módulos e microcódigos do sistema
 
@@ -213,8 +205,6 @@ Principais responsabilidades:
 
 O treinamento é uma atividade independente da execução do reconhecimento veicular, embora seus resultados sejam utilizados durante a inferência.
 
----
-
 ## Estrutura do repositório
 
 A estrutura completa pode ser consultada diretamente na árvore de diretórios do GitHub.
@@ -238,8 +228,6 @@ Entre os principais arquivos e diretórios estão:
 
 > Os microcódigos são organizados conforme suas responsabilidades no sistema. Para identificar a implementação de cada componente, consulte os respectivos arquivos Python e suas funções.
 
----
-
 ## Requisitos
 
 Antes de executar o projeto, é necessário possuir:
@@ -252,8 +240,6 @@ Antes de executar o projeto, é necessário possuir:
 - Pesos dos modelos YOLO necessários para as etapas de detecção.
 
 A disponibilidade de GPU depende da configuração do ambiente e dos componentes utilizados. A execução em CPU também deve ser considerada na configuração do OCR.
-
----
 
 ## Instalação
 
@@ -299,8 +285,6 @@ pip install -r requirements.txt
 
 > Caso o arquivo ainda esteja nomeado como `requeriments.txt`, será necessário utilizar o nome existente ou renomeá-lo antes de executar o comando acima.
 
----
-
 ## Modelos de Deep Learning
 
 O VIPER utiliza modelos YOLO para as etapas de detecção de veículos e placas.
@@ -316,8 +300,6 @@ runs/detect/placa_detector/weights/best.pt
 Caso os pesos não estejam presentes, será necessário disponibilizá-los antes da execução.
 
 **Importante:** os pesos dos modelos devem possuir origem documentada. Quando forem utilizados conjuntos de dados ou modelos de terceiros, suas respectivas licenças e condições de uso devem ser respeitadas.
-
----
 
 ## Execução
 
@@ -343,8 +325,6 @@ python trainYOLO.py
 
 > Os scripts podem depender de modelos previamente treinados, arquivos de entrada e configurações específicas. Consulte o código e a documentação correspondente antes da execução. Os comandos acima representam os pontos de entrada dos scripts, não uma garantia de execução sem configuração adicional.
 
----
-
 ## Pesquisa e desenvolvimento
 
 Além da implementação do sistema, o VIPER envolve atividades de investigação e experimentação relacionadas a:
@@ -358,13 +338,3 @@ Além da implementação do sistema, o VIPER envolve atividades de investigaçã
 - Integração entre componentes de visão computacional e sistemas de armazenamento.
 
 Os resultados experimentais devem ser apresentados com identificação do conjunto de dados, configuração utilizada, ambiente de execução e métricas correspondentes a cada experimento.
-
----
-
-## Autoria
-
-**VIPER — Vehicle Identification and Plate Extraction Recognition**
-
-Projeto de pesquisa e desenvolvimento voltado à aplicação de visão computacional e Deep Learning no reconhecimento automático de placas veiculares.
-
-Repositório: https://github.com/marian4cost/VIPER
