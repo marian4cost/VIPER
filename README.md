@@ -361,37 +361,6 @@ Os resultados experimentais devem ser apresentados com identificação do conjun
 
 ---
 
-## Contribuição
-
-O VIPER é um projeto em desenvolvimento. Contribuições são bem-vindas, especialmente nas áreas de visão computacional, Deep Learning, processamento digital de imagens, OCR, desenvolvimento de software e sistemas embarcados.
-
-Para contribuir:
-
-1. Faça um fork do repositório.
-2. Crie uma branch para sua contribuição.
-3. Implemente as alterações.
-4. Realize testes antes de enviar.
-5. Abra um Pull Request descrevendo as modificações realizadas.
-
-Sugestão para nomear branches:
-
-```text
-feature/nova-funcionalidade
-fix/correcao-de-bug
-docs/atualizacao-documentacao
-refactor/reorganizacao-modulo
-```
-
----
-
-## Licença
-
-As informações sobre licenciamento do código-fonte e dos materiais utilizados devem ser consultadas no arquivo `LICENSE` e nas respectivas fontes dos conjuntos de dados e modelos.
-
-Caso ainda não exista uma licença definida para o projeto, sua inclusão deve ser realizada pelos responsáveis antes de estabelecer condições de redistribuição e reutilização.
-
----
-
 ## Autoria
 
 **VIPER — Vehicle Identification and Plate Extraction Recognition**
