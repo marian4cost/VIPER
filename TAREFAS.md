@@ -32,5 +32,6 @@
   - [x] Validar geração do PDF executivo do projeto (`relatorio_viper_projeto.pdf`).
   - [x] *Commit final de ajustes e validação*.
 
-- [ ] **Etapa 6: Documentação e Explicação Detalhada Final**
-  - [ ] Gerar documentação explicativa de cada pasta e arquivo do projeto para o usuário.
+- [x] **Etapa 6: Documentação e Explicação Detalhada Final**
+  - [x] Gerar documentação explicativa de cada pasta e arquivo do projeto para o usuário.
+  - [x] Apresentar o resumo executivo das mudanças, commits realizados e ganhos de espaço.
