@@ -20,11 +20,11 @@
   - [x] Manter pastas de dados, entradas e saídas de testes (`fotos_carros/`, `placas_processadas/`, `placas_finalizadas/`, `debug_saida_viper/`, `images/`).
   - [x] *Commit da reorganização estrutural*.
 
-- [ ] **Etapa 4: Atualização de Configurações, Dependências e Documentação**
-  - [ ] Atualizar `.gitignore` de forma completa e profissional.
-  - [ ] Ajustar `requeriments.txt` (ou `requirements.txt`).
-  - [ ] Restaurar e aprimorar o `README.md` com a arquitetura completa, telemetria e instruções de uso.
-  - [ ] *Commit da documentação e configurações*.
+- [x] **Etapa 4: Atualização de Configurações, Dependências e Documentação**
+  - [x] Atualizar `.gitignore` de forma completa e profissional.
+  - [x] Ajustar `requeriments.txt` e padronizar `requirements.txt`.
+  - [x] Restaurar e aprimorar o `README.md` com a arquitetura completa, telemetria e instruções de uso.
+  - [x] *Commit da documentação e configurações*.
 
 - [ ] **Etapa 5: Validação da Integridade e Testes de Importação**
   - [ ] Verificar a sintaxe e importações de todos os scripts Python reorganizados.
