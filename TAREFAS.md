@@ -35,3 +35,9 @@
 - [x] **Etapa 6: Documentação e Explicação Detalhada Final**
   - [x] Gerar documentação explicativa de cada pasta e arquivo do projeto para o usuário.
   - [x] Apresentar o resumo executivo das mudanças, commits realizados e ganhos de espaço.
+
+- [x] **Etapa 7: Remoção dos Itens Opcionais/Arquiváveis (Economia de ~8,1 GB)**
+  - [x] Remover pasta `experimentos/` (~2,4 GB) e desvincular do repositório.
+  - [x] Remover ambiente virtual `venv/` (~5,6 GB).
+  - [x] Remover pesos locais `.easyocr_models/` (~94 MB) do disco e do versionamento Git.
+  - [x] *Commit da liberação de espaço*.

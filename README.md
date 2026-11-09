@@ -70,12 +70,6 @@ viper/
 │   ├── apresentacao/                  # Relatórios consolidados para apresentações
 │   └── treinamento/                   # Relatórios de treinamento de épocas
 │
-├── experimentos/                      # 🔬 Histórico de Datasets e Treinamentos
-│   ├── dataset01/                     # Primeira iteração de dataset Roboflow
-│   ├── dataset01-new/                 # Iteração refinada com dataset de placas antigas
-│   ├── dataset02/                     # Dataset expandido com múltiplas variações
-│   └── dataset02-new/                 # Dataset expandido refinado
-│
 ├── historico/                         # 📜 Histórico e Códigos Legados
 │   └── codigos_legados/               # Versões anteriores dos scripts (preservação histórica)
 │
