@@ -1,0 +1,36 @@
+================================================================================
+PIPELINE INTEGRADO VIPER - PRÉ-PROCESSAMENTO, IDENTIFICAÇÃO E OCR
+================================================================================
+
+[1/5] ARQUIVO: car04.jpeg
+  ├─ Placa Binarizada Salva em: placas_processadas/limpa_car04.jpeg
+  ├─ Placa Identificada: POX21 (Padrão incerto)
+  └─ Tempo total pipeline: 865.05 ms (OCR: 163.05 ms)
+
+[2/5] ARQUIVO: car05.jpeg
+  ├─ Placa Binarizada Salva em: placas_processadas/limpa_car05.jpeg
+  ├─ Placa Identificada: BRA3R52 (Mercosul)
+  └─ Tempo total pipeline: 163.92 ms (OCR: 66.63 ms)
+
+[3/5] ARQUIVO: car01.jpeg
+  ├─ Placa Binarizada Salva em: placas_processadas/limpa_car01.jpeg
+  ├─ Placa Identificada: NÃO RECONHECIDA (Padrão incerto)
+  └─ Tempo total pipeline: 190.72 ms (OCR: 134.46 ms)
+
+[4/5] ARQUIVO: car03.jpeg
+  ├─ Placa Binarizada Salva em: placas_processadas/limpa_car03.jpeg
+  ├─ Placa Identificada: NÃO RECONHECIDA (Padrão incerto)
+  └─ Tempo total pipeline: 121.03 ms (OCR: 55.17 ms)
+
+[5/5] ARQUIVO: car02.jpeg
+  ├─ Placa Binarizada Salva em: placas_processadas/limpa_car02.jpeg
+  ├─ Placa Identificada: ZOZ4I99 (Mercosul)
+  └─ Tempo total pipeline: 125.03 ms (OCR: 67.60 ms)
+
+================================================================================
+RESUMO DA EXECUÇÃO INTEGRADA
+================================================================================
+ - Total de Imagens Processadas: 5
+ - Placas com Leitura Aprovada: 2 (40.0%)
+ - Tempo Médio Total por Imagem: 293.15 ms
+ - Tempo Médio Exclusivo de OCR: 97.38 ms

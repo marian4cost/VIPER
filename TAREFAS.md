@@ -13,12 +13,12 @@
   - [x] Limpar o `.git` vazio na raiz `/viper/` que causa aninhamento incorreto de repositórios.
   - [x] *Commit da etapa de limpeza*.
 
-- [ ] **Etapa 3: Integração e Reorganização Estrutural**
-  - [ ] Integrar a pasta de experimentos/testes (`newTestes`) para dentro de `VIPER/experimentos/`.
-  - [ ] Unificar os códigos-fonte: promover a versão modular e atualizada (`novos_codigos/` com telemetria e caminhos robustos) como o núcleo de código (`src/` e entrypoints).
-  - [ ] Organizar os relatórios: consolidar todos os relatórios (`relatorio_*.txt`, `.pdf` e pasta legada) em `relatorios/`.
-  - [ ] Manter pastas de dados, entradas e saídas de testes (`fotos_carros/`, `placas_processadas/`, `placas_finalizadas/`, `debug_saida_viper/`, `images/`).
-  - [ ] *Commit da reorganização estrutural*.
+- [x] **Etapa 3: Integração e Reorganização Estrutural**
+  - [x] Integrar a pasta de experimentos/testes (`newTestes`) para dentro de `VIPER/experimentos/`.
+  - [x] Unificar os códigos-fonte: promover a versão modular e atualizada (`novos_codigos/` com telemetria e caminhos robustos) como o núcleo de código (`src/` e entrypoints).
+  - [x] Organizar os relatórios: consolidar todos os relatórios (`relatorio_*.txt`, `.pdf` e pasta legada) em `relatorios/`.
+  - [x] Manter pastas de dados, entradas e saídas de testes (`fotos_carros/`, `placas_processadas/`, `placas_finalizadas/`, `debug_saida_viper/`, `images/`).
+  - [x] *Commit da reorganização estrutural*.
 
 - [ ] **Etapa 4: Atualização de Configurações, Dependências e Documentação**
   - [ ] Atualizar `.gitignore` de forma completa e profissional.

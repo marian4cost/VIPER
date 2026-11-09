@@ -1,0 +1,8 @@
+path: /home/mariana-costa/Documentos/projects/viper/newTestes/dataset01
+
+train: images/train
+val: images/val
+test: images/test
+
+nc: 1
+names: ['placa']

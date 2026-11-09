@@ -1,0 +1,6 @@
+path: /home/mariana-costa/Documentos/projects/viper/newTestes/dataset01-new/dataset
+train: images/train
+val: images/train
+
+names:
+  0: placa_antiga

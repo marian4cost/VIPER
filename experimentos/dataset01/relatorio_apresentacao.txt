@@ -1,0 +1,22 @@
+=== RELATÓRIO DE AVALIAÇÃO DE TREINAMENTO ===
+
+[BENCHMARK ÉPOCA 1/120]
+ ├─ Duração da Época (t_epoch): 17.50 s
+ ├─ Tempo Médio por Batch: 61.66 ms
+ └─ Pico de Alocação VRAM: 530.99 MB
+
+[BENCHMARK ÉPOCA 2/120]
+ ├─ Duração da Época (t_epoch): 15.18 s
+ ├─ Tempo Médio por Batch: 53.44 ms
+ └─ Pico de Alocação VRAM: 531.04 MB
+
+[BENCHMARK ÉPOCA 3/120]
+ ├─ Duração da Época (t_epoch): 16.25 s
+ ├─ Tempo Médio por Batch: 57.22 ms
+ └─ Pico de Alocação VRAM: 531.29 MB
+
+[BENCHMARK ÉPOCA 4/120]
+ ├─ Duração da Época (t_epoch): 15.24 s
+ ├─ Tempo Médio por Batch: 53.67 ms
+ └─ Pico de Alocação VRAM: 531.04 MB
+

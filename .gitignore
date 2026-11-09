@@ -1,8 +1,37 @@
-./venv
-./easyocr_models
-./debug_saida_viper
-./fotos_carros
-./images
-./placas_finalizadas
-./placas_processadas
-./relatórios
+# Ambientes virtuais
+venv/
+.venv/
+env/
+ENV/
+
+# Bytecode e caches Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Modelos pré-carregados e caches locais de OCR
+.easyocr_models/
+easyocr_models/
+
+# Saídas de execução, debug e logs
+debug_saida_viper/
+fotos_carros/
+placas_finalizadas/
+placas_processadas/
+*.log
+
+# Caches de labels do YOLO
+*.cache
+
+# Imagens de datasets e modelos muito pesados nos experimentos (>100MB)
+images/
+experimentos/**/images/
+experimentos/**/runs/
+experimentos/**/*.pt
+
+# IDEs e Sistema Operacional
+.DS_Store
+.idea/
+.vscode/
+experimentos/**/cam_outputs/

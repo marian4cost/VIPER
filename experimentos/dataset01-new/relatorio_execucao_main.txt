@@ -1,0 +1,27 @@
+================================================================================
+PIPELINE INTEGRADO VIPER - PRÉ-PROCESSAMENTO, IDENTIFICAÇÃO E OCR
+================================================================================
+
+[1/5] ❌ car04.jpeg: Falha na localização/pré-processamento da placa.
+
+[2/5] ARQUIVO: car05.jpeg
+  ├─ Placa Binarizada Salva em: placas_processadas/limpa_car05.jpeg
+  ├─ Placa Identificada: BRA3R52 (Mercosul)
+  └─ Tempo total pipeline: 252.52 ms (OCR: 92.29 ms)
+
+[3/5] ❌ car01.jpeg: Falha na localização/pré-processamento da placa.
+
+[4/5] ARQUIVO: car03.jpeg
+  ├─ Placa Binarizada Salva em: placas_processadas/limpa_car03.jpeg
+  ├─ Placa Identificada: NÃO RECONHECIDA (Padrão incerto)
+  └─ Tempo total pipeline: 142.10 ms (OCR: 51.34 ms)
+
+[5/5] ❌ car02.jpeg: Falha na localização/pré-processamento da placa.
+
+================================================================================
+RESUMO DA EXECUÇÃO INTEGRADA
+================================================================================
+ - Total de Imagens Processadas: 5
+ - Placas com Leitura Aprovada: 1 (20.0%)
+ - Tempo Médio Total por Imagem: 197.31 ms
+ - Tempo Médio Exclusivo de OCR: 71.82 ms
