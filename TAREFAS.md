@@ -41,3 +41,14 @@
   - [x] Remover ambiente virtual `venv/` (~5,6 GB).
   - [x] Remover pesos locais `.easyocr_models/` (~94 MB) do disco e do versionamento Git.
   - [x] *Commit da liberação de espaço*.
+
+- [x] **Etapa 8: Polimento Profissional para o GitHub, Testes e Documentação Visual**
+  - [x] Remoção de arquivo redundante com erro de digitação (`requeriments.txt`).
+  - [x] Correção de bug no motor heurístico de placas (preservação prévia de placas válidas antes de substituições).
+  - [x] Criação de suíte de testes unitários automatizados em `tests/` com cobertura para regex, PDI e telemetria.
+  - [x] Adição de `requirements-dev.txt` para linters e testes.
+  - [x] Criação de `Makefile` com atalhos para instalação, execução, testes e geração de relatórios.
+  - [x] Configuração de CI com GitHub Actions (`.github/workflows/ci.yml`).
+  - [x] Criação das diretrizes de contribuição em `CONTRIBUTING.md`.
+  - [x] Reformulação completa do `README.md` com badges profissionais, diagramas Mermaid, tabela de amostras visuais, benchmarks reais e guias passo a passo.
+  - [x] *Commits atômicos realizados a cada etapa*.
