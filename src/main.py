@@ -174,6 +174,12 @@ def recortar_roi_suave(img, pct_pad=0.03):
 # 2️⃣ HEURÍSTICA E REGRAS VIPER (CORREÇÃO DE PLACAS)
 # ==========================================
 def _validar_string_7char(texto):
+    # 0. Se já casa perfeitamente com um padrão oficial, preserva imediatamente
+    if REGEX_MERCOSUL.match(texto):
+        return texto, "Mercosul"
+    if REGEX_ANTIGO.match(texto):
+        return texto, "Padrão Antigo"
+
     letras_para_numeros = {
         "O": "0", "I": "1", "J": "1", "S": "5", "Z": "2",
         "G": "6", "B": "8", "Q": "9", "D": "0", "A": "4",
