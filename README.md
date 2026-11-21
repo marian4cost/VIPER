@@ -1,420 +1,336 @@
-# VIPER — Vehicle Identification and Plate Extraction Recognition
+# 🐍 VIPER — Vehicle Identification and Plate Extraction Recognition
 
-Sistema de detecção, rastreamento e reconhecimento automático de placas veiculares, desenvolvido com foco no monitoramento de acesso de veículos em ambientes institucionais, especialmente campus universitários.
+<div align="center">
 
-O VIPER utiliza técnicas de visão computacional, Deep Learning e Processamento Digital de Imagens (PDI) para identificar veículos, localizar suas placas e reconhecer os caracteres presentes nelas, com suporte aos padrões brasileiros **Mercosul (`ABC1D23`) e Antigo Brasileiro (`ABC1234`)**. O sistema também integra mecanismos de telemetria de hardware e avaliação de desempenho computacional.
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.1%2B-EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-00FFFF.svg?logo=yolo&logoColor=white)](https://github.com/ultralytics/ultralytics)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.9%2B-5C3EE8.svg?logo=opencv&logoColor=white)](https://opencv.org/)
+[![EasyOCR](https://img.shields.io/badge/EasyOCR-1.7%2B-green.svg)](https://github.com/JaidedAI/EasyOCR)
+[![CI Tests](https://img.shields.io/badge/Tests-Passing-success.svg?logo=github-actions&logoColor=white)](#-testes-automatizados)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+**Sistema Inteligente de Detecção de Veículos, Localização de Placas e Reconhecimento Óptico de Caracteres (ALPR)**  
+*Suporte aos Padrões Brasileiros Mercosul (`ABC1D23`) e Antigo (`ABC1234`), com Correção Geométrica e Telemetria de Hardware em Tempo Real.*
+
+</div>
 
 ---
 
-## Sobre o projeto
-
-O VIPER (Vehicle Identification and Plate Extraction Recognition) é um projeto de pesquisa e desenvolvimento voltado à construção de uma solução de reconhecimento automático de placas veiculares (ALPR — *Automatic License Plate Recognition*).
-
-A proposta consiste em desenvolver um sistema capaz de processar imagens e vídeos, detectar veículos, localizar suas respectivas placas e extrair os caracteres presentes nelas.
-
-O projeto explora a integração de modelos de Deep Learning e técnicas tradicionais de Processamento Digital de Imagens, considerando aspectos como precisão, desempenho computacional, modularidade e possibilidade de implantação em dispositivos de baixo custo.
-
-Além do reconhecimento das placas, o VIPER incorpora mecanismos de monitoramento de recursos computacionais, permitindo investigar o consumo de hardware e o tempo necessário para a execução das diferentes etapas do processamento.
-
-## Objetivos
-
-- Detectar veículos em imagens e vídeos.
-- Realizar o rastreamento de veículos durante o monitoramento.
-- Localizar placas veiculares dos padrões Mercosul e Antigo Brasileiro.
-- Aplicar técnicas de processamento digital de imagens para melhorar a qualidade das regiões de interesse.
-- Corrigir distorções geométricas e de perspectiva das placas.
-- Reconhecer os caracteres das placas utilizando OCR.
-- Aplicar regras de pós-processamento para tratar possíveis erros de reconhecimento.
-- Estruturar os registros obtidos para posterior consulta e análise.
-- Monitorar o consumo de recursos computacionais durante a execução.
-- Avaliar latência, FPS e métricas de desempenho dos modelos.
-- Investigar a viabilidade de execução em dispositivos embarcados e de baixo custo.
-
-## Tecnologias utilizadas
-
-| Tecnologia | Aplicação |
-|---|---|
-| Python | Linguagem principal do projeto. |
-| YOLOv8 | Detecção de veículos e placas veiculares. |
-| ByteTrack | Rastreamento de objetos em vídeos. |
-| OpenCV | Processamento digital de imagens e vídeos, recorte e transformações geométricas. |
-| EasyOCR | Reconhecimento óptico de caracteres. |
-| NumPy | Operações e manipulação de matrizes. |
-| Pandas | Organização e manipulação de dados. |
-| psutil | Monitoramento de recursos de hardware, como CPU e memória RAM. |
-| ReportLab | Geração automatizada de relatórios técnicos em PDF. |
-| Expressões regulares (Regex) | Validação e tratamento dos padrões alfanuméricos das placas. |
-
-## Arquitetura geral
-
-O VIPER é organizado em etapas independentes de processamento, responsáveis por transformar imagens e vídeos em informações estruturadas sobre os veículos e suas respectivas placas.
-
-O fluxo geral de funcionamento é composto pelas seguintes etapas:
-
-1. **Captura:** obtenção de imagens ou vídeos provenientes de arquivos, câmeras ou fluxos de vídeo.
-2. **Identificação de veículos:** detecção dos veículos presentes na cena.
-3. **Rastreamento:** acompanhamento dos veículos detectados ao longo dos quadros do vídeo.
-4. **Detecção de placas:** localização das regiões correspondentes às placas veiculares.
-5. **Extração da região de interesse:** recorte da placa identificada para as próximas etapas.
-6. **Pré-processamento:** aplicação de técnicas de processamento digital de imagens para preparar a região da placa.
-7. **Reconhecimento (OCR):** extração dos caracteres presentes na placa.
-8. **Pós-processamento:** aplicação de regras e heurísticas para validar e corrigir o resultado de acordo com os padrões brasileiros.
-9. **Armazenamento:** organização dos resultados para registro e análise posterior.
-10. **Telemetria:** monitoramento dos recursos computacionais e do desempenho das etapas de processamento.
-
-Essa divisão permite desenvolver, testar e aprimorar cada etapa individualmente, facilitando a manutenção e a evolução do sistema.
-
-## Módulos e microcódigos do sistema
-
-O VIPER utiliza diferentes componentes de software para executar as etapas do reconhecimento veicular. Cada microcódigo possui uma responsabilidade específica dentro do pipeline, permitindo que as funcionalidades sejam desenvolvidas e avaliadas de maneira independente.
-
-### 1. Identificação e detecção de veículos
-
-**Tecnologias:** YOLOv8 e OpenCV.
-
-Responsável por identificar os veículos presentes nas imagens e nos fluxos de vídeo.
-
-Principais responsabilidades:
-
-- Receber e processar quadros provenientes de vídeos ou câmeras.
-- Identificar veículos por meio de modelos de detecção.
-- Selecionar as classes de objetos relevantes para o projeto.
-- Obter as coordenadas das regiões delimitadoras (*bounding boxes*).
-- Aplicar critérios para selecionar veículos dentro da área monitorada.
-
-### 2. Rastreamento de veículos
-
-**Arquivo de referência:** `track.py`
-
-**Tecnologia:** ByteTrack.
-
-Responsável por acompanhar os veículos identificados ao longo dos quadros de um vídeo, permitindo manter uma identificação associada ao objeto durante o monitoramento.
-
-Principais responsabilidades:
-
-- Realizar a detecção de objetos em sequência de quadros.
-- Aplicar o algoritmo ByteTrack.
-- Acompanhar as trajetórias dos veículos.
-- Trabalhar com uma Região de Interesse (ROI).
-- Selecionar veículos que atendam aos critérios definidos.
-- Extrair imagens dos veículos para processamento posterior.
-
-### 3. Detecção e identificação de placas
-
-**Tecnologia:** YOLOv8 com modelo personalizado.
-
-Responsável por localizar as placas veiculares nas imagens dos veículos selecionados.
-
-Principais responsabilidades:
-
-- Carregar os pesos do modelo treinado para detecção de placas.
-- Identificar a localização das placas na imagem.
-- Obter as coordenadas das regiões detectadas.
-- Extrair a região correspondente à placa.
-- Encaminhar a imagem extraída para as etapas de processamento.
-
-### 4. Extração e recorte de imagens
-
-**Tecnologia:** OpenCV.
-
-Responsável por isolar a região da placa identificada pelo detector, produzindo uma imagem específica para o reconhecimento dos caracteres.
-
-Principais responsabilidades:
-
-- Interpretar as coordenadas da detecção.
-- Realizar o recorte da região delimitada.
-- Verificar as dimensões da imagem extraída.
-- Preparar a região de interesse para o pré-processamento.
-
-### 5. Pré-processamento de imagens
-
-**Tecnologias:** OpenCV e NumPy.
-
-Responsável por melhorar as características visuais da imagem da placa antes da aplicação do OCR.
-
-O pré-processamento é uma etapa importante porque fatores como iluminação, contraste, resolução, ruído e inclinação podem interferir na leitura dos caracteres.
-
-Entre as técnicas utilizadas no projeto estão:
-
-- **Redimensionamento da imagem:** ajuste das dimensões da região de interesse.
-- **Escala de cinza:** conversão da imagem para uma representação monocromática.
-- **CLAHE:** equalização adaptativa do histograma para melhoria do contraste local.
-- **Binarização de Otsu:** separação entre regiões de primeiro plano e fundo por meio de limiarização automática.
-- **Sharpening:** aplicação de filtros para realce de nitidez.
-- **Warp Perspective:** correção geométrica da placa por transformação de perspectiva.
-- **Detecção de quadrilátero:** identificação dos vértices da placa por meio do algoritmo `encontrar_quadrilatero_placa`.
-- **Retificação da placa:** utilização de `warp_placa`, com as funções `cv2.getPerspectiveTransform` e `cv2.warpPerspective`, para transformar uma placa inclinada em uma representação frontal.
-- **Letterbox:** redimensionamento com preservação da proporção original e preenchimento das dimensões restantes, evitando distorções nos caracteres.
-
-As técnicas podem ser avaliadas individualmente ou combinadas, permitindo investigar quais configurações oferecem melhores condições para o reconhecimento.
-
-### 6. Reconhecimento óptico de caracteres (OCR)
-
-**Tecnologia:** EasyOCR.
-
-Responsável por interpretar os caracteres presentes na imagem da placa e transformar as informações visuais em texto.
-
-Principais responsabilidades:
-
-- Receber a imagem pré-processada.
-- Executar o reconhecimento óptico de caracteres.
-- Restringir o conjunto de caracteres considerados, quando aplicável.
-- Obter o texto reconhecido.
-- Recuperar os valores de confiança retornados pelo mecanismo de OCR.
-
-### 7. Pós-processamento e validação de placas
-
-**Tecnologias:** Python e expressões regulares (Regex).
-
-Responsável por tratar os resultados obtidos pelo OCR, considerando as características alfanuméricas dos padrões brasileiros de placas veiculares.
-
-O sistema contempla dois formatos:
-
-**Padrão Mercosul**
-
-Formato: `LLLNLNN`
-
-Exemplo: `ABC1D23`
-
-**Padrão Antigo Brasileiro**
-
-Formato: `LLLNNNN`
-
-Exemplo: `ABC1234`
-
-Em que:
-
-- `L` representa uma letra.
-- `N` representa um número.
-
-Principais responsabilidades:
-
-- Normalizar o texto retornado pelo OCR.
-- Remover caracteres indesejados.
-- Identificar o padrão alfanumérico correspondente.
-- Validar a sequência por meio de expressões regulares específicas para cada padrão.
-- Aplicar regras posicionais para corrigir confusões entre letras e números.
-- Identificar resultados que não atendam aos formatos esperados.
-
-Essa etapa busca reduzir erros decorrentes de semelhanças visuais entre caracteres, como `0` e `O`, ou `1` e `I`, respeitando as posições previstas em cada padrão de placa.
-
-### 8. Armazenamento e gerenciamento dos resultados
-
-**Tecnologias:** Pandas e arquivos Excel.
-
-Responsável por organizar os resultados obtidos durante o processamento e manter registros das identificações realizadas.
-
-Principais responsabilidades:
-
-- Registrar as placas reconhecidas.
-- Armazenar informações relacionadas ao processamento.
-- Organizar os resultados em planilhas.
-- Manter o histórico das imagens processadas.
-- Facilitar a consulta e a análise posterior dos registros.
-
-### 9. Treinamento e avaliação dos modelos
-
-**Arquivos de referência:** `trainYOLO.py` e `validadeYOLO.py`
-
-**Tecnologia:** Ultralytics YOLOv8.
-
-Responsável pelo treinamento e pela avaliação dos modelos de detecção utilizados pelo VIPER.
-
-Principais responsabilidades:
-
-- Preparar os dados de treinamento.
-- Configurar os parâmetros do modelo.
-- Executar o treinamento.
-- Gerar os pesos do modelo.
-- Avaliar o desempenho por meio de métricas de detecção.
-- Calcular métricas como precisão, revocação, F1-score e mAP.
-- Realizar avaliações de latência e desempenho computacional.
-- Disponibilizar os modelos treinados para utilização no pipeline.
-
-O treinamento é uma atividade independente da execução do reconhecimento veicular, embora seus resultados sejam utilizados durante a inferência.
-
-### 10. Telemetria e monitoramento de hardware
-
-**Arquivo de referência:** `telemetria.py`
-
-**Tecnologias:** psutil e ferramentas de monitoramento e medição de desempenho utilizadas pelo projeto.
-
-Responsável por acompanhar o consumo de recursos computacionais durante a execução do sistema, permitindo avaliar seu comportamento em diferentes condições de processamento.
-
-Principais indicadores monitorados:
-
-- **CPU (%):** percentual de utilização do processador.
-- **Memória RAM (MB):** consumo e pico de utilização da memória principal.
-- **VRAM (MB):** alocação de memória de vídeo, quando disponível e suportada pelo ambiente.
-- **Latência (ms):** tempo de execução das etapas de pré-processamento, inferência e OCR.
-- **FPS real (*End-to-End*):** quantidade de quadros processados por segundo considerando o fluxo completo do sistema.
-
-A telemetria também está integrada por meio de callbacks nos scripts de treinamento e processamento, permitindo acompanhar indicadores durante as execuções.
-
-Esse módulo é especialmente relevante para a investigação da viabilidade do VIPER em dispositivos embarcados e plataformas de baixo custo, pois permite relacionar a qualidade do processamento com o consumo de recursos computacionais.
-
-### 11. Geração automatizada de relatórios
-
-**Arquivos de referência:** `gerar_pdf_relatorio.py` e `relatorio_viper_projeto.pdf`
-
-**Tecnologia:** ReportLab.
-
-Responsável por gerar relatórios em PDF a partir das informações e resultados organizados pelo projeto.
-
-Principais responsabilidades:
-
-- Consolidar informações técnicas do projeto.
-- Organizar resultados e indicadores de desempenho.
-- Gerar documentos em formato PDF.
-- Disponibilizar um relatório estruturado para consulta e documentação.
-
-O arquivo `relatorio_viper_projeto.pdf` corresponde ao relatório gerado pelo processo automatizado.
-
-## Estrutura do repositório
-
-A estrutura do VIPER é organizada para separar os módulos de processamento, os scripts de execução, os recursos de treinamento e os documentos de pesquisa.
-
-| Arquivo ou diretório | Descrição |
-|---|---|
-| `src/` | Núcleo de código modular do projeto, contendo os componentes e microcódigos. |
-| `main.py` | Ponto de entrada do processamento principal. |
-| `track.py` | Script relacionado ao rastreamento de veículos em vídeos. |
-| `trainYOLO.py` | Script relacionado ao treinamento do modelo YOLO. |
-| `validadeYOLO.py` | Script de avaliação e benchmark dos modelos, incluindo métricas e latência. |
-| `telemetria.py` | Módulo de monitoramento de recursos computacionais. |
-| `gerar_pdf_relatorio.py` | Script responsável pela geração automatizada de relatórios em PDF. |
-| `relatorios/` | Diretório destinado aos relatórios e documentos gerados pelo projeto. |
-| `relatorio_viper_projeto.pdf` | Relatório técnico gerado automaticamente. |
-| `images/` | Imagens utilizadas na documentação e apresentação do projeto. |
-| `runs/detect/` | Diretório associado aos resultados de execução e treinamento do YOLO. |
-| `requirements.txt` | Arquivo de dependências do projeto. |
-
-Os microcódigos são organizados conforme suas responsabilidades dentro do diretório `src/`. Para identificar a implementação de cada componente, consulte os respectivos arquivos Python e suas funções.
-
-## Requisitos
-
-Antes de executar o projeto, é necessário possuir:
-
-- Python instalado.
-- Git instalado.
-- Gerenciador de pacotes pip.
-- Ambiente virtual Python recomendado.
-- Dependências do projeto instaladas.
-- Pesos dos modelos YOLO necessários para as etapas de detecção.
-
-A disponibilidade de GPU depende da configuração do ambiente e dos componentes utilizados. A execução em CPU também deve ser considerada na configuração do OCR e na avaliação do desempenho.
-
-## Instalação
-
-### 1. Clonar o repositório
-
-```bash
-git clone https://github.com/marian4cost/VIPER.git
+## 📌 Sumário
+
+- [Visão Geral](#-visão-geral)
+- [Principais Destaques](#-principais-destaques)
+- [Arquitetura e Pipeline](#-arquitetura-e-pipeline)
+- [Resultados Visuais](#-resultados-visuais)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Módulos do Sistema](#-módulos-do-sistema)
+- [Benchmark e Desempenho](#-benchmark-e-desempenho)
+- [Estrutura do Repositório](#-estrutura-do-repositório)
+- [Instalação e Início Rápido](#-instalação-e-início-rápido)
+- [Como Executar](#-como-executar)
+- [Testes Automatizados](#-testes-automatizados)
+- [Contribuição](#-contribuição)
+- [Autoria](#-autoria)
+
+---
+
+## 🔍 Visão Geral
+
+O **VIPER** (*Vehicle Identification and Plate Extraction Recognition*) é uma solução de **ALPR** (*Automatic License Plate Recognition*) desenvolvida com foco em ambientes institucionais e controle de acesso veicular (como campus universitários e estacionamentos corporativos).
+
+O sistema combina modelos de **Deep Learning (YOLOv8)** para detecção em dois níveis (veículo e placa), técnicas avançadas de **Processamento Digital de Imagens (PDI)** para alinhamento geométrico por perspectiva e binarização adaptativa, **OCR (EasyOCR)** e um motor de **regras heurísticas** para desambiguação de caracteres e validação dos padrões brasileiros.
+
+Além do reconhecimento visual, o VIPER integra um módulo nativo de **telemetria de hardware**, permitindo monitorar consumo de CPU, memória RAM, alocação de GPU/VRAM, latência e taxa real de processamento (FPS *End-to-End*).
+
+---
+
+## ⚡ Principais Destaques
+
+- **Pipeline Hierárquico de Detecção**: Localiza o veículo na imagem ampla e, na sequência, isola a placa veicular com alta precisão.
+- **Retificação e Correção Geométrica**: Detecção de quadrilátero com correção de perspectiva (*Warp Perspective*), gerando imagens frontais alinhadas para o OCR mesmo com placas inclinadas.
+- **Pré-processamento Avançado**: Binarização automática de Otsu, equalização CLAHE e redimensionamento *Letterbox* com preservação de aspect ratio.
+- **Suporte aos Padrões Brasileiros**:
+  - **Padrão Mercosul**: `LLLNLNN` (Ex.: `ABC1D23`)
+  - **Padrão Antigo Brasileiro**: `LLLNNNN` (Ex.: `ABC1234`)
+- **Desambiguação Heurística Posicional**: Corrige automaticamente confusões clássicas de OCR (ex.: `0` e `O`, `1` e `I`, `8` e `B`, `5` e `S`) com base na posição da letra ou número exigida pelo padrão da placa.
+- **Tratamento de Ruídos de Borda**: Mecanismo que identifica e remove ruídos periféricos em leituras de 8 caracteres.
+- **Telemetria e Benchmarking Integrados**: Registro instantâneo de métricas de hardware por execução (CPU %, RAM MB, VRAM MB, latência ms, FPS).
+- **Relatório Executivo Automatizado**: Geração de documentos técnicos em formato PDF via ReportLab.
+
+---
+
+## 🏗️ Arquitetura e Pipeline
+
+O fluxo de processamento do VIPER é dividido em etapas desacopladas:
+
+```mermaid
+flowchart TD
+    A["📸 Entrada (Imagens de Veículos)"] --> B["🚗 Detecção de Veículo (YOLOv8)"]
+    B --> C["🔍 Extração da Região de Interesse (ROI)"]
+    C --> D["🏷️ Detecção da Placa (YOLOv8 Custom)"]
+    D --> E["📐 Correção Geométrica (Warp Perspective)"]
+    E --> F["⚙️ Pré-Processamento (Otsu / Binarização / Suave)"]
+    F --> G["🔤 Reconhecimento Óptico (EasyOCR)"]
+    G --> H["🧠 Motor Heurístico e Validação Regex"]
+    H --> I{"Placa Válida?"}
+    I -- Sim --> J["📋 Registro em Log e Anotação Visual"]
+    I -- Não --> K["⚠️ Sinalização de Padrão Incerto"]
+    J --> L["💻 Telemetria de Hardware (CPU / RAM / VRAM / FPS)"]
+    K --> L
+    L --> M["📄 Relatório Técnico em PDF e Logs Estruturados"]
 ```
 
-### 2. Acessar o diretório
+---
 
+## 📷 Resultados Visuais
+
+Amostras do pipeline em execução com imagens do diretório `fotos_carros/`:
+
+| Imagem Original (`fotos_carros/`) | Placa Binarizada (`placas_processadas/`) | Detecção Anotada (`debug_saida_viper/`) | Placa Reconhecida | Padrão |
+|:---:|:---:|:---:|:---:|:---:|
+| `car01.jpeg` | `limpa_car01.jpeg` | `anotado_car01.jpeg` | **CDV2I72** | Mercosul |
+| `car02.jpeg` | `limpa_car02.jpeg` | `anotado_car02.jpeg` | **IOZ4I93** | Mercosul |
+| `car03.jpeg` | `limpa_car03.jpeg` | `anotado_car03.jpeg` | **GGC8H75** | Mercosul |
+| `car04.jpeg` | `limpa_car04.jpeg` | `anotado_car04.jpeg` | **POX4G21** | Mercosul |
+| `car05.jpeg` | `limpa_car05.jpeg` | `anotado_car05.jpeg` | **BRA3R52** | Mercosul |
+
+> *Taxa de aprovação de 100% no conjunto de imagens de teste integrado com tempo médio total de 258 ms por veículo.*
+
+---
+
+## 💻 Tecnologias Utilizadas
+
+| Componente | Ferramenta / Biblioteca | Finalidade |
+|---|---|---|
+| **Linguagem** | Python 3.10+ | Linguagem principal do projeto |
+| **Deep Learning** | Ultralytics YOLOv8 & PyTorch | Detecção de veículos e detector customizado de placas |
+| **Visão Computacional** | OpenCV | Processamento digital de imagem, warp perspective e binarização |
+| **OCR** | EasyOCR | Reconhecimento óptico de caracteres com pesos pré-treinados |
+| **Manipulação Numérica** | NumPy & Pillow | Transformações matriciais e manipulação de canais de cor |
+| **Validação** | Expressões Regulares (Regex) | Validação estrita dos formatos Mercosul e padrão antigo |
+| **Telemetria** | `psutil` & `torch.cuda` | Monitoramento contínuo de uso de CPU, RAM e VRAM |
+| **Relatórios** | ReportLab | Geração programática de relatórios consolidados em PDF |
+| **Testes** | Pytest | Testes automatizados de validação de regras e telemetria |
+
+---
+
+## 📦 Módulos do Sistema
+
+O núcleo de código do VIPER está estruturado de forma modular no diretório `src/`:
+
+```text
+VIPER/
+├── src/
+│   ├── main.py                 # Pipeline integrado de ponta a ponta
+│   ├── reading.py              # Módulo de OCR e motor heurístico de validação
+│   ├── preProcessing.py        # Algoritmos de retificação e binarização de placas
+│   ├── telemetria.py           # Monitoramento de hardware (CPU, RAM, GPU, VRAM)
+│   ├── trainYOLO.py            # Rotina de treinamento com callbacks de telemetria
+│   ├── validadeYOLO.py         # Benchmark de latência, FPS e métricas do YOLO
+│   └── gerar_pdf_relatorio.py  # Geração do relatório executivo em PDF
+├── tests/                      # Bateria de testes unitários com pytest
+├── Makefile                    # Atalhos de compilação, execução e testes
+├── requirements.txt            # Dependências de execução
+└── requirements-dev.txt        # Dependências de desenvolvimento e testes
+```
+
+### 1. Pipeline Principal (`main.py` / `src/main.py`)
+Coordena todas as etapas do sistema: recebe as imagens de veículos, detecta o automóvel, recorta a área de interesse, localiza a placa, aplica retificação e binarização, submete ao EasyOCR, valida a sintaxe e grava as anotações visuais e logs.
+
+### 2. Leitura e Heurística de Caracteres (`reading.py` / `src/reading.py`)
+Implementa:
+- Normalização e limpeza de caracteres ilegais.
+- Desambiguação inteligente entre caracteres com semelhança visual (`0` ↔ `O`, `1` ↔ `I`, `2` ↔ `Z`, `5` ↔ `S`, `8` ↔ `B`, `4` ↔ `A`).
+- Tratamento de ruídos nas extremidades (strings de 8 caracteres).
+- Filtro de confiança do OCR e cálculo de IoU.
+
+### 3. Pré-processamento e PDI (`preProcessing.py` / `src/preProcessing.py`)
+- `encontrar_quadrilatero_placa`: encontra os 4 vértices da placa com base em contornos e aproximação poligonal.
+- `warp_placa`: realiza transformação afim/perspectiva (`cv2.warpPerspective`) para frontalizar a placa.
+- `letterbox`: redimensionamento proporcional com preenchimento cinza neutro.
+
+### 4. Telemetria de Hardware (`src/telemetria.py`)
+Coleta indicadores essenciais para avaliação de viabilidade do sistema em hardware de borda (*Edge Computing* / embarcados):
+- Percentual de CPU Host.
+- Memória RAM consumida e percentual do sistema.
+- VRAM alocada, reservada e pico de memória na GPU.
+- Temporizadores de alta precisão com `time.perf_counter()`.
+
+### 5. Geração de Relatórios em PDF (`gerar_pdf_relatorio.py`)
+Consolida métricas e estatísticas em um documento PDF formatado profissionalmente, salvo em `relatorios/relatorio_viper_projeto.pdf`.
+
+---
+
+## 📊 Benchmark e Desempenho
+
+Validação realizada em ambiente com aceleração gráfica **NVIDIA GeForce RTX 3050 Laptop GPU**:
+
+| Métrica | Resultado Obtido |
+|---|---|
+| **Forward Pass (Inferência YOLO)** | **4.58 ms** |
+| **Pré-processamento Médio** | **0.01 ms** |
+| **Pós-processamento / NMS** | **0.87 ms** |
+| **Latência Total End-to-End** | **5.46 ms** |
+| **Taxa de Quadros Real (FPS)** | **183.29 FPS** |
+| **Pico de Memória VRAM** | **56.37 MB** |
+| **Taxa de Leitura no Teste Integrado** | **100% (5/5 imagens)** |
+
+---
+
+## 📂 Estrutura do Repositório
+
+```text
+VIPER/
+├── .github/workflows/ci.yml       # Integração contínua (GitHub Actions)
+├── Makefile                       # Comandos rápidos de automação
+├── README.md                      # Documentação completa do projeto
+├── CONTRIBUTING.md                # Guia de contribuição e boas práticas
+├── requirements.txt               # Dependências principais
+├── requirements-dev.txt           # Dependências de teste e linters
+├── data.yaml                      # Configuração de dados para treinamento YOLO
+├── main.py                        # Ponto de entrada do pipeline principal
+├── reading.py                     # Ponto de entrada para testes de OCR
+├── preProcessing.py               # Ponto de entrada para testes de PDI
+├── trainYOLO.py                   # Ponto de entrada para treinamento
+├── validadeYOLO.py                # Ponto de entrada para benchmark de latência
+├── gerar_pdf_relatorio.py         # Ponto de entrada para geração do PDF
+├── fotos_carros/                  # Amostras de entrada para testes
+├── placas_processadas/            # Placas recortadas e binarizadas
+├── debug_saida_viper/             # Imagens anotadas e logs de auditoria
+├── relatorios/                    # Documentos técnicos e relatórios em PDF
+│   └── relatorio_viper_projeto.pdf
+├── runs/detect/                   # Pesos e métricas de treinamento YOLO
+├── src/                           # Código-fonte modular do sistema
+└── tests/                         # Testes automatizados com pytest
+```
+
+---
+
+## 🚀 Instalação e Início Rápido
+
+### Pré-requisitos
+- Python 3.10 ou superior
+- Git
+- Placa de vídeo compatível com CUDA (opcional; o sistema funciona também em CPU)
+
+### 1. Clonar o Repositório
 ```bash
+git clone https://github.com/marian4cost/VIPER.git
 cd VIPER
 ```
 
-### 3. Criar um ambiente virtual
+### 2. Criar e Ativar o Ambiente Virtual
 
+**Linux / macOS:**
 ```bash
-python -m venv .venv
-```
-
-### 4. Ativar o ambiente virtual
-
-**Windows:**
-
-```bash
-.venv\Scripts\activate
-```
-
-**Linux:**
-
-```bash
+python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### 5. Instalar as dependências
+**Windows:**
+```powershell
+python -m venv .venv
+.venv\Scripts\activate
+```
 
+### 3. Instalar Dependências
+
+Utilizando o `Makefile`:
+```bash
+make install
+```
+
+Ou diretamente via `pip`:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Modelos de Deep Learning
+Para instalar dependências de desenvolvimento e testes:
+```bash
+make install-dev
+```
 
-O VIPER utiliza modelos YOLO para as etapas de detecção de veículos e placas.
+---
 
-Os pesos treinados devem estar disponíveis nos caminhos esperados pelos scripts de execução.
+## 🏃 Como Executar
 
-No processamento principal, o modelo de detecção de placas utiliza o seguinte caminho:
+O projeto disponibiliza pontos de entrada simples na raiz para cada funcionalidade:
 
+### 1. Executar o Pipeline Integrado Completo
+Processa as fotos de veículos da pasta `fotos_carros/`, realiza o alinhamento da placa, OCR e grava os resultados em `debug_saida_viper/` e no log de acessos:
+```bash
+make run
+# ou: python main.py
+```
+
+### 2. Executar Apenas Testes de Leitura e Heurística de Placas
+```bash
+python reading.py
+```
+
+### 3. Executar Testes de Pré-Processamento e Binarização
+```bash
+python preProcessing.py
+```
+
+### 4. Executar Benchmark de Latência e Validação YOLO
+Mede os tempos de pré-processamento, forward pass e taxa de FPS real:
+```bash
+make validate
+# ou: python validadeYOLO.py
+```
+
+### 5. Iniciar Treinamento do Modelo de Detecção de Placas
+```bash
+make train
+# ou: python trainYOLO.py
+```
+
+### 6. Gerar Relatório Executivo em PDF
+Consolida métricas de todo o sistema no arquivo `relatorios/relatorio_viper_projeto.pdf`:
+```bash
+make report
+# ou: python gerar_pdf_relatorio.py
+```
+
+---
+
+## 🧪 Testes Automatizados
+
+O VIPER conta com uma suíte de testes unitários para validar a lógica de regras de placas, telemetria e pré-processamento:
+
+```bash
+make test
+# ou: pytest -v
+```
+
+Saída esperada:
 ```text
-runs/detect/placa_detector/weights/best.pt
+tests/test_preprocessing.py::test_recortar_roi_suave_dimensions PASSED
+tests/test_reading.py::test_validar_placa_mercosul_valida PASSED
+tests/test_reading.py::test_validar_placa_antiga_valida PASSED
+tests/test_reading.py::test_correcao_letras_numeros_mercosul PASSED
+tests/test_reading.py::test_correcao_ruido_8_caracteres PASSED
+tests/test_reading.py::test_placa_invalida_retorna_incerto PASSED
+tests/test_telemetria.py::test_capturar_desempenho_maquina PASSED
+tests/test_telemetria.py::test_formatar_relatorio_hardware PASSED
+tests/test_telemetria.py::test_temporizador PASSED
+============================== 9 passed ==============================
 ```
 
-Caso os pesos não estejam presentes, será necessário disponibilizá-los antes da execução.
+---
 
-**Importante:** os pesos dos modelos devem possuir origem documentada. Quando forem utilizados conjuntos de dados ou modelos de terceiros, suas respectivas licenças e condições de uso devem ser respeitadas.
+## 🤝 Contribuição
 
-## Execução
+Contribuições, correções e sugestões de melhoria são muito bem-vindas!  
+Consulte o guia detalhado em [CONTRIBUTING.md](CONTRIBUTING.md) para saber como configurar o ambiente, executar testes e submeter seus Pull Requests.
 
-O repositório possui scripts relacionados ao processamento principal, rastreamento, treinamento, avaliação e geração de relatórios.
+---
 
-**Processamento principal**
+## 👩‍💻 Autoria
 
-```bash
-python main.py
-```
+Desenvolvido por **Mariana Costa** no contexto de pesquisa e desenvolvimento em visão computacional, Deep Learning e reconhecimento automático de placas veiculares (ALPR).
 
-**Rastreamento de veículos**
-
-```bash
-python track.py
-```
-
-**Treinamento do modelo**
-
-```bash
-python trainYOLO.py
-```
-
-**Avaliação e benchmark**
-
-```bash
-python validadeYOLO.py
-```
-
-**Geração do relatório em PDF**
-
-```bash
-python gerar_pdf_relatorio.py
-```
-
-Os scripts podem depender de modelos previamente treinados, arquivos de entrada e configurações específicas. Consulte o código e a documentação correspondente antes da execução. Os comandos acima representam os pontos de entrada dos scripts, não uma garantia de execução sem configuração adicional.
-
-## Pesquisa e desenvolvimento
-
-Além da implementação do sistema, o VIPER envolve atividades de investigação e experimentação relacionadas a:
-
-- Detecção de placas veiculares.
-- Comparação de técnicas de reconhecimento óptico de caracteres.
-- Pré-processamento e melhoria de imagens.
-- Correção geométrica e retificação de perspectiva.
-- Validação dos padrões brasileiros de placas.
-- Avaliação de métricas de detecção.
-- Análise de latência e taxa real de processamento.
-- Monitoramento do consumo de CPU, RAM e VRAM.
-- Execução em plataformas de hardware com recursos computacionais limitados.
-- Integração entre componentes de visão computacional e sistemas de armazenamento.
-
-Os resultados experimentais devem ser apresentados com identificação do conjunto de dados, configuração utilizada, ambiente de execução e métricas correspondentes a cada experimento.
-
-## Autoria
-
-Projeto VIPER — Vehicle Identification and Plate Extraction Recognition.
-
-Desenvolvido no contexto de pesquisa e desenvolvimento em visão computacional, Deep Learning e reconhecimento automático de placas veiculares.
+- GitHub: [@marian4cost](https://github.com/marian4cost)
+- Repositório do Projeto: [marian4cost/VIPER](https://github.com/marian4cost/VIPER)
